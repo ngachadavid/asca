@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Content */}
-      <div className="relative z-10 text-start w-full md:w-[50%] px-6 mb-4">
+      <div className="relative z-10 text-start w-full max-w-7xl md:w-[50%] px-6 mb-4">
         <h1 className="text-3xl md:text-5xl font-bold text-gray-200 leading-tight">
           Supporting Every Child’s Journey to Success
         </h1>
