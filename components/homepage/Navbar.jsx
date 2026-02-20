@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Button from '../global/Button';
 
 export default function Navbar() {
   return (
@@ -29,9 +30,9 @@ export default function Navbar() {
         {/* Right - Donate Button */}
         <div>
           <Link href="/donate">
-            <button className="bg-[#3399FF] text-white px-5 py-2 rounded-md">
+            <Button className="">
               Donate
-            </button>
+            </Button>
           </Link>
         </div>
       </div>
