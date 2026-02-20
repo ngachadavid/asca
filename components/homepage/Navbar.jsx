@@ -29,11 +29,7 @@ export default function Navbar() {
 
         {/* Right - Donate Button */}
         <div>
-          <Link href="/donate">
-            <Button className="">
-              Donate
-            </Button>
-          </Link>
+          <Button href="/donate">Donate</Button>
         </div>
       </div>
     </nav>
