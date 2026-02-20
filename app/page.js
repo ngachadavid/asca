@@ -3,6 +3,7 @@ import Navbar from '@/components/global/Navbar'
 import React from 'react'
 import MissionSection from '@/components/homepage/Mission'
 import ImpactSection from '@/components/homepage/Impact'
+import DonateCTA from '@/components/global/DonateCTA'
 
 export default function page() {
   return (
@@ -11,6 +12,7 @@ export default function page() {
     <Hero />
     <MissionSection />
     <ImpactSection />
+    <DonateCTA />
     </>
   )
 }
