@@ -4,6 +4,7 @@ import React from 'react'
 import MissionSection from '@/components/homepage/Mission'
 import ImpactSection from '@/components/homepage/Impact'
 import DonateCTA from '@/components/global/DonateCTA'
+import ContactSection from '@/components/global/ContactForm'
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
     <MissionSection />
     <ImpactSection />
     <DonateCTA />
+    <ContactSection />
     </>
   )
 }
