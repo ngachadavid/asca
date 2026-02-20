@@ -1,5 +1,4 @@
 import Button from "../global/Button";
-import Link from "next/link";
 
 export default function Hero() {
   return (

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Button from '../global/Button';
+import Button from './Button';
 
 export default function Navbar() {
   return (
@@ -7,8 +7,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-1 flex items-center justify-between">
         {/* Left - Logo + Name */}
         <div className="flex items-center space-x-3">
-          <img src="/homepage/logo.webp" alt="ASCA Logo" className="h-20 w-36" />
-          <span className="font-bold text-xl text-[#3399FF]">ASCA Luxembourg</span>
+          <Link href="/" className="flex items-center">
+            <img src="/homepage/logo.webp" alt="ASCA Logo" className="h-20 w-36" />
+            <span className="font-bold text-xl text-[#3399FF]">ASCA Luxembourg</span>
+          </Link>
         </div>
 
         {/* Middle - Navigation Links */}
