@@ -1,15 +1,26 @@
 export default function MissionSection() {
   return (
-    <section className="w-full bg-gray-50 pt-20 px-6 md:px-16">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+    <section className="w-full py-20 px-6 md:px-16">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
 
-        {/* Text Content */}
-        <div className="md:w-1/2 mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-            Empowering Children’s Futures Through Support and Learning
+        {/* Text Content - Left Side */}
+        <div className="md:w-1/2 text-center">
+          <h2 className="text-black/90 text-lg md:text-xl leading-relaxed">
+            ASCA <span className="font-bold">(Appui Scolaire Carlo Acutis)</span> Luxembourg was founded under the inspiration of the young Saint Carlo Acutis, carrying forward his legacy of compassion and service to those in need.
           </h2>
-          <p className="text-black/80 text-lg md:text-xl leading-relaxed">
-            ASCA Luxembourg is devoted to uplifting children from disadvantaged backgrounds by preventing school dropout and addressing challenges like poverty and malnutrition, striving to create a nurturing environment for their growth and education.</p>
+        </div>
+
+        {/* Image - Right Side */}
+        <div className="w-full md:w-[40%] relative">
+          {/* Black shadow */}
+          <div className="absolute top-2 left-2 w-full h-full bg-black"></div>
+          
+          {/* Main image */}
+          <img 
+            src="/homepage/carlo.webp" 
+            alt="ASCA Story - Inspired by Carlo Acutis" 
+            className="relative w-full h-64 border border-black object-cover"
+          />
         </div>
       </div>
     </section>
