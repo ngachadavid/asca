@@ -1,5 +1,5 @@
-import FAQHero from '@/components/about/FAQHero'
-import FAQSection from '@/components/about/FAQs'
+import Projects from '@/components/about/Projects'
+import FAQHero from '@/components/about/ProjectsHero'
 import ContactCTA from '@/components/global/ContactCTA'
 import Footer from '@/components/global/Footer'
 import Navbar from '@/components/global/Navbar'
@@ -10,7 +10,7 @@ export default function page() {
     <>
     <Navbar />
     <FAQHero />
-    <FAQSection />
+    <Projects />
     <ContactCTA />
     <Footer />
     </>

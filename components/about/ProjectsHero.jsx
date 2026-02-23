@@ -1,6 +1,6 @@
 import Button from "../global/Button";
 
-export default function FAQHero() {
+export default function ProjectsHero() {
   return (
     <section
       className="h-screen w-full bg-cover bg-center flex items-end justify-start relative"
@@ -12,10 +12,10 @@ export default function FAQHero() {
       {/* Content */}
       <div className="relative z-10 text-start w-full md:w-[50%] px-6 mb-4">
         <h1 className="text-xl md:text-4xl font-bold text-white leading-tight mb-6">
-          Find answers about our mission, programs, partnerships, and how you can get involved.
-          </h1>
+          Explore Our Projects and See How ASCA Luxembourg Creates Lasting Impact
+        </h1>
        
-         {/* Right - Donate Button */}
+        {/* CTA Button */}
         <div>
           <Button href="/testimonials">See Stories of Impact</Button>
         </div>
