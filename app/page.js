@@ -5,6 +5,7 @@ import MissionSection from '@/components/homepage/Mission'
 import ImpactSection from '@/components/homepage/Impact'
 import DonateCTA from '@/components/global/DonateCTA'
 import ContactSection from '@/components/global/ContactForm'
+import Testimonial from '@/components/homepage/Testimonial'
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
     <Hero />
     <MissionSection />
     <ImpactSection />
+    <Testimonial />
     <DonateCTA />
     <ContactSection />
     </>
