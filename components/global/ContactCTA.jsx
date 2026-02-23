@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactCTA() {
     return (
-        <section className="py-20 px-6 md:px-16">
+        <section className="py-20 px-6 md:px-16 bg-white">
             <div className="max-w-7xl mx-auto relative">
                 <div className="absolute top-2 left-2 w-[80%] h-full bg-black"></div>
 

@@ -27,7 +27,7 @@ export default function OurValues() {
   ];
 
   return (
-    <section className="py-24 w-full max-w-6xl px-4 mx-auto">
+    <section className="py-24 w-full max-w-6xl px-4 mx-auto bg-white">
       {/* Heading */}
       <div className="w-full md:w-[60%] mx-auto text-center mb-16">
         <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">

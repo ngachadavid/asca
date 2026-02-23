@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function DonateCTA() {
   return (
-    <section className="py-20 px-6 md:px-16">
+    <section className="py-20 px-6 md:px-16 bg-white">
       {/* Container with relative positioning for shadow */}
       <div className="max-w-6xl mx-auto relative">
         {/* Black shadow */}

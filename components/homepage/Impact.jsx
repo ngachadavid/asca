@@ -31,7 +31,7 @@ export default function ImpactSection() {
   ];
 
   return (
-    <section className="py-20 w-full max-w-6xl px-4 mx-auto">
+    <section className="py-20 w-full max-w-6xl px-4 mx-auto bg-white">
       {/* Heading */}
       <div className="w-full md:w-[70%] mx-auto text-center mb-12">
         <h2 className="text-xl md:text-3xl font-bold text-black mb-4 ">

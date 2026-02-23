@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function ContactSection() {
   return (
-    <section className="w-full bg-gray-50 py-20 px-6 md:px-16">
+    <section className="w-full bg-white py-20 px-6 md:px-16">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 md:gap-16 items-center">
         {/* Left Side - Copy */}
         <div className="md:w-1/2 text-left">

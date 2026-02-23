@@ -1,6 +1,6 @@
 export default function MissionSection() {
   return (
-    <section className="w-full py-20 px-6 md:px-16">
+    <section className="w-full py-20 px-6 md:px-16 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
 
         {/* Text Content - Left Side */}
