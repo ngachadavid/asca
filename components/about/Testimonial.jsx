@@ -51,7 +51,7 @@ export default function TestimonialSection() {
         {/* Testimonial Card */}
         <div className="relative">
           {/* Gradient Card */}
-          <div className="bg-gradient-to-r from-blue-400 via-white to-blue-400 rounded-3xl p-12 md:p-16 shadow-xl border-2 border-gray-200 relative">
+          <div className="bg-linear-to-r from-blue-400 via-white to-blue-400 rounded-3xl p-12 md:p-16 shadow-xl border-2 border-gray-200 relative">
             {/* Quote Icon */}
             <div className="flex justify-center mb-8">
               <svg
