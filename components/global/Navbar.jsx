@@ -24,7 +24,7 @@ export default function Navbar() {
             <Link href="/about" className="hover:text-[#3399FF] transition">About</Link>
           </li>
           <li>
-            <Link href="/faq" className="hover:text-[#3399FF] transition">Projects</Link>
+            <Link href="/projects" className="hover:text-[#3399FF] transition">Projects</Link>
           </li>
           <li>
             <Link href="/testimonials" className="hover:text-[#3399FF] transition">Testimonials</Link>
@@ -59,7 +59,7 @@ export default function Navbar() {
             About
           </Link>
           <Link 
-            href="/faq" 
+            href="/projects" 
             onClick={() => setIsMenuOpen(false)}
             className="text-2xl font-bold text-gray-900 hover:text-[#3399FF] transition"
           >
