@@ -5,17 +5,17 @@ export default function TheChallenge() {
         
         {/* Left – 40% */}
         <div className="md:col-span-2">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
+          <h2 className="text-xl md:text-3xl font-bold text-black mb-4">
             The Challenge
           </h2>
-          <p className="mt-6 text-gray-600 text-lg">
+          <p className="mt-6 text-black/90 text-lg">
             Many children face barriers that go beyond the classroom — challenges that
             quietly shape their future long before they have the chance to choose it.
           </p>
         </div>
 
         {/* Right – 60% */}
-        <div className="md:col-span-3 space-y-8 text-gray-700 text-base leading-relaxed">
+        <div className="md:col-span-3 space-y-8 text-black/80 text-base leading-relaxed">
           
           <p>
             For some children, school becomes difficult not because they lack potential,

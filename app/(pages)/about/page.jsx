@@ -1,5 +1,6 @@
 import TheChallenge from '@/components/about/Challenge'
 import AboutHero from '@/components/about/Hero'
+import History from '@/components/about/History'
 import OurResponse from '@/components/about/Response'
 import OurValues from '@/components/about/Values'
 import DonateCTA from '@/components/global/DonateCTA'
@@ -12,6 +13,7 @@ export default function page() {
     <>
     <Navbar />
     <AboutHero />
+    <History />
     <TheChallenge />
     <OurResponse />
     <DonateCTA />

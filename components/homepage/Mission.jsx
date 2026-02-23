@@ -8,6 +8,8 @@ export default function MissionSection() {
           <h2 className="text-black/90 text-lg md:text-xl leading-relaxed">
             ASCA <span className="font-bold">(Appui Scolaire Carlo Acutis)</span> Luxembourg was founded under the inspiration of the young Saint Carlo Acutis, carrying forward his legacy of compassion and service to those in need.
           </h2>
+          <h2 className="text-black/90 text-lg md:text-xl leading-relaxed">
+            We are a non-profit organization founded on the belief that everyone deserves equal access to education, healthcare, and support.</h2>
         </div>
 
         {/* Image - Right Side */}

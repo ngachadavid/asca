@@ -37,10 +37,10 @@ export default function OurResponse() {
 
         {/* Left – 40% */}
         <div className="md:col-span-2">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
+          <h2 className="text-xl md:text-3xl font-bold text-black mb-4">
             Our Response
           </h2>
-          <p className="mt-6 text-gray-600 text-lg">
+          <p className="mt-6 text-black/90 text-lg">
             Lasting change begins with thoughtful support. We focus on practical,
             consistent interventions that help children regain stability,
             confidence, and opportunity.
