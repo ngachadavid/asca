@@ -7,6 +7,7 @@ import DonateCTA from '@/components/global/DonateCTA'
 import ContactSection from '@/components/global/ContactForm'
 import Testimonial from '@/components/homepage/Testimonial'
 import Footer from '@/components/global/Footer'
+import FAQSection from '@/components/homepage/FAQ.'
 
 export default function page() {
   return (
@@ -16,6 +17,7 @@ export default function page() {
     <MissionSection />
     <ImpactSection />
     <Testimonial />
+    <FAQSection />
     <DonateCTA />
     <ContactSection />
     <Footer />
