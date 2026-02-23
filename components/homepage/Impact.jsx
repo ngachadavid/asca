@@ -1,34 +1,34 @@
 export default function ImpactSection() {
   const cards = [
-    {
-      icon: "/homepage/impact.webp",
-      title: "Education & Retention",
-      description:
-        "Keeping children in school through mentorship, support, and engagement programs. We provide learning resources, mentorship, and guidance to ensure children stay motivated and succeed academically.",
-      bgColor: "bg-blue-200",
-    },
-    {
-      icon: "/homepage/impact1.webp",
-      title: "Nutrition & Basic Needs",
-      description:
-        "Providing nourishment and resources to combat hunger and poverty. Our programs ensure children have access to balanced meals and essential resources that support their growth and well-being.",
-      bgColor: "bg-blue-300",
-    },
-    {
-      icon: "/homepage/impact1.webp",
-      title: "Emotional Care & Inclusion",
-      description:
-        "Creating safe communities and support systems for children facing loss and isolation. We facilitate counseling, social activities, and community engagement to foster inclusion and emotional resilience.",
-      bgColor: "bg-blue-400",
-    },
-    {
-      icon: "/homepage/impact.webp",
-      title: "Skills & Opportunities",
-      description:
-        "Equipping children with skills and opportunities for long-term growth and success. We provide workshops, mentorship, and hands-on experiences to help children build confidence and future career paths.",
-      bgColor: "bg-blue-500",
-    },
-  ];
+  {
+    icon: "/homepage/impact.webp",
+    title: "Education & Retention",
+    description:
+      "We support the development and education of children from socially and economically disadvantaged families. Through mentorship, guidance, and access to learning resources, we help children stay motivated, attend school regularly, and succeed academically, building a foundation for a brighter future.",
+    bgColor: "bg-blue-200",
+  },
+  {
+    icon: "/homepage/impact1.webp",
+    title: "School Dropout Prevention",
+    description:
+      "ASCA works to combat school dropout, particularly among orphaned children and those coping with bereavement. By combining academic support with emotional guidance, personalized learning plans, and close follow-ups, we ensure children remain engaged in school and continue their educational journey.",
+    bgColor: "bg-blue-300",
+  },
+  {
+    icon: "/homepage/impact1.webp",
+    title: "Social Inclusion & Poverty Alleviation",
+    description:
+      "We fight isolation and extreme poverty by creating safe, supportive environments for children and families in need. Through community programs, social activities, and counseling, we foster inclusion, resilience, and a sense of belonging, empowering children to overcome challenges and participate fully in society.",
+    bgColor: "bg-blue-400",
+  },
+  {
+    icon: "/homepage/impact.webp",
+    title: "Nutrition & Well-Being",
+    description:
+      "ASCA addresses hunger and malnutrition by providing essential resources and nourishment. Our programs ensure children have access to balanced meals, health education, and support for their physical and emotional well-being, enabling them to grow, learn, and thrive in a safe and healthy environment.",
+    bgColor: "bg-blue-500",
+  },
+];
 
   return (
     <section className="py-20 w-full max-w-6xl px-4 mx-auto bg-white">
