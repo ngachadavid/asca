@@ -1,40 +1,25 @@
+'use client';
+
+import { useTranslation } from '@/lib/useTranslation';
+
 export default function OurValues() {
-  const cards = [
-    {
-      title: "Dignity First",
-      description:
-        "Every child deserves to be treated with respect and care. We approach our work with empathy, ensuring that support empowers rather than labels or defines.",
-      bgColor: "bg-blue-200",
-    },
-    {
-      title: "Consistency Over Charity",
-      description:
-        "Real change doesn’t come from one-time gestures. We focus on steady, reliable support that builds trust and creates lasting stability in children’s lives.",
-      bgColor: "bg-blue-300",
-    },
-    {
-      title: "Community-Led Support",
-      description:
-        "We believe solutions are strongest when rooted in community. By working closely with families, educators, and local partners, we ensure our impact is meaningful and sustainable.",
-      bgColor: "bg-blue-400",
-    },
-    {
-      title: "Long-Term Impact",
-      description:
-        "Our goal isn’t short-term relief, but long-term transformation. We invest in education, resilience, and opportunity so children can shape their own futures with confidence.",
-      bgColor: "bg-blue-500",
-    },
-  ];
+  const { t } = useTranslation();
+
+  // Static bg colors
+  const bgColors = ["bg-blue-200", "bg-blue-300", "bg-blue-400", "bg-blue-500"];
+
+  // Pull cards text from JSON
+  const cards = t('ourValues.cards');
 
   return (
     <section className="py-24 w-full max-w-6xl px-4 mx-auto bg-white">
       {/* Heading */}
       <div className="w-full md:w-[60%] mx-auto text-center mb-16">
         <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
-          The Values That Guide Our Work
+          {t('ourValues.title')}
         </h2>
         <p className="text-gray-700 text-lg">
-          Our mission is shaped by principles that ensure every action is thoughtful, sustainable, and centered around the well-being of children.
+          {t('ourValues.intro')}
         </p>
       </div>
 
@@ -47,7 +32,7 @@ export default function OurValues() {
 
             {/* Main card */}
             <div
-              className={`${card.bgColor} border border-black relative -top-2 -left-2 p-8 flex flex-col text-start`}
+              className={`${bgColors[index]} border border-black relative -top-2 -left-2 p-8 flex flex-col text-start`}
             >
               <h3 className="text-xl md:text-2xl font-semibold mb-4 text-black/90">
                 {card.title}

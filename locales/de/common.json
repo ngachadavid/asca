@@ -128,4 +128,53 @@
       }
     ]
   }
+  ,
+"history": {
+  "title": "Unsere Geschichte",
+  "text": "Gegründet am 30. Juli 2023 von einer Gruppe weltlicher Benediktineroblaten des Dritten Benediktinerordens der Abtei Clervaux, glaubt der Verein, dass es wie die Rettung der Menschheit für eine bessere Welt ist, einem verwaisten, armen oder verlassenen Kind zu helfen.\n\nArmut ist ungerecht. ASCA verpflichtet sich, keine Kinder, die in extremer Not leben, zurückzulassen und ihnen die Unterstützung zu geben, die sie benötigen, um eine erfüllende Bildung zu verfolgen und genug zu essen zu haben.\n\nDer Heilige Carlo Acutis, der Schutzpatron unseres Vereins, dient als Vorbild für Großzügigkeit und Mitgefühl gegenüber den Verwundbarsten, den Ärmsten der Armen."
+},
+"ourValues": {
+  "title": "Die Werte, die unsere Arbeit leiten",
+  "intro": "Unsere Mission wird von Prinzipien geprägt, die sicherstellen, dass jede Handlung durchdacht, nachhaltig und auf das Wohl der Kinder ausgerichtet ist.",
+  "cards": [
+    {
+      "title": "Würde zuerst",
+      "description": "Jedes Kind verdient es, mit Respekt und Fürsorge behandelt zu werden. Wir gehen unsere Arbeit mit Empathie an und stellen sicher, dass Unterstützung stärkt, statt zu etikettieren oder zu definieren."
+    },
+    {
+      "title": "Beständigkeit über Wohltätigkeit",
+      "description": "Echte Veränderung entsteht nicht durch einmalige Gesten. Wir konzentrieren uns auf stetige, zuverlässige Unterstützung, die Vertrauen aufbaut und dauerhafte Stabilität im Leben der Kinder schafft."
+    },
+    {
+      "title": "Gemeinschaftsgeführte Unterstützung",
+      "description": "Wir glauben, dass Lösungen am stärksten sind, wenn sie in der Gemeinschaft verwurzelt sind. Durch enge Zusammenarbeit mit Familien, Pädagogen und lokalen Partnern stellen wir sicher, dass unsere Wirkung sinnvoll und nachhaltig ist."
+    },
+    {
+      "title": "Langfristige Wirkung",
+      "description": "Unser Ziel ist keine kurzfristige Hilfe, sondern langfristige Transformation. Wir investieren in Bildung, Resilienz und Chancen, damit Kinder ihre eigene Zukunft selbstbewusst gestalten können."
+    }
+  ]
+},
+"projectsHero": {
+  "title": "Entdecken Sie unsere Projekte und sehen Sie, wie ASCA Luxemburg nachhaltige Wirkung erzielt",
+  "cta": "Erfolgsgeschichten ansehen"
+},
+"projects": [
+  {
+    "title": "Orphelinat de Mugera – Burundi",
+    "description": "Mugera ist ein kleines Dorf in der Provinz Gitega im Zentrum von Burundi. Das Waisenhaus, in dem etwa 40 Kinder leben, wurde früher von der Pfarrei und Freiwilligen unterstützt. Nach COVID und aufgrund extremer Armut kämpft das Projekt. Spenden von ASCA bieten Mahlzeiten und Schulmaterialien und machen einen echten Unterschied im Leben der Kinder.",
+    "images": ["/projects/kr.webp", "/projects/kerrr.webp"]
+  },
+  {
+    "title": "Projet Keur Moussa – Sénégal",
+    "description": "In Keur-Moussa im Senegal stehen Kinder vor Herausforderungen aufgrund begrenzter Ressourcen ihrer Eltern. Dieses Projekt, das von den Mönchen der Abtei Keur-Moussa geleitet wird, bietet wesentliche Unterstützung, einschließlich Schulmaterial, um den Kindern akademisch und persönlich zu helfen.",
+    "images": ["/projects/kerr.webp", "/projects/ker.webp", "/projects/ke.webp", "/projects/k.webp"]
+  }
+],
+  "contactCTA": {
+    "title": "Erfahren Sie, wie Sie sich in unserer gemeindebasierten Arbeit engagieren können",
+    "description": "Wir freuen uns immer, mit engagierten Personen und Organisationen in Kontakt zu treten. Kontaktieren Sie uns, um zu erfahren, wie Sie zu den Programmen von ASCA Luxemburg beitragen und Kindern helfen können, erfolgreich zu sein.",
+    "button": "Kontakt aufnehmen"
+  }
+
 }

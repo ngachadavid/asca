@@ -129,5 +129,53 @@
         "content": "Nous préparons les enfants à un succès à long terme en développant des compétences pratiques, la résilience et l'ambition — leur permettant de façonner leur propre avenir avec confiance."
       }
     ]
+  },
+"history": {
+  "title": "Notre Histoire",
+  "text": "Créée le 30 juillet 2023 par un groupe d'oblats laïcs bénédictins appartenant au Troisième Ordre Bénédictin de l'Abbaye de Clervaux, l'association croit que venir en aide à un enfant orphelin, pauvre ou abandonné revient à sauver l'humanité pour un monde meilleur.\n\nLa pauvreté est injuste. ASCA s'engage à ne laisser aucun enfant vivant dans une extrême précarité derrière, en leur offrant le soutien dont ils ont besoin pour suivre une éducation épanouissante et avoir suffisamment à manger.\n\nSaint Carlo Acutis, le patron de notre association, sert de modèle de générosité et de compassion envers les plus vulnérables, les plus pauvres parmi les pauvres."
+},
+"ourValues": {
+  "title": "Les Valeurs Qui Guident Notre Travail",
+  "intro": "Notre mission est façonnée par des principes qui garantissent que chaque action soit réfléchie, durable et centrée sur le bien-être des enfants.",
+  "cards": [
+    {
+      "title": "La Dignité Avant Tout",
+      "description": "Chaque enfant mérite d’être traité avec respect et attention. Nous abordons notre travail avec empathie, en veillant à ce que le soutien responsabilise plutôt qu’il n’étiquette ou ne définit."
+    },
+    {
+      "title": "La Cohérence Avant la Charité",
+      "description": "Le vrai changement ne vient pas d’un geste ponctuel. Nous nous concentrons sur un soutien régulier et fiable qui instaure la confiance et crée une stabilité durable dans la vie des enfants."
+    },
+    {
+      "title": "Soutien Mené par la Communauté",
+      "description": "Nous croyons que les solutions sont les plus fortes lorsqu’elles sont enracinées dans la communauté. En travaillant étroitement avec les familles, les éducateurs et les partenaires locaux, nous garantissons un impact significatif et durable."
+    },
+    {
+      "title": "Impact à Long Terme",
+      "description": "Notre objectif n’est pas un soulagement temporaire, mais une transformation à long terme. Nous investissons dans l’éducation, la résilience et les opportunités afin que les enfants puissent façonner leur avenir en toute confiance."
+    }
+  ]
+},
+"projectsHero": {
+  "title": "Découvrez nos projets et voyez comment ASCA Luxembourg crée un impact durable",
+  "cta": "Voir les histoires d'impact"
+},
+"projects": [
+  {
+    "title": "Orphelinat de Mugera – Burundi",
+    "description": "Mugera est un petit village de la province de Gitega, au centre du Burundi. L'orphelinat, qui accueille environ 40 enfants, était autrefois soutenu par la paroisse et des bénévoles. Après la COVID et en raison de l'extrême pauvreté, le projet rencontre des difficultés. Les dons d'ASCA fournissent des repas et du matériel scolaire, faisant une réelle différence dans la vie des enfants.",
+    "images": ["/projects/kr.webp", "/projects/kerrr.webp"]
+  },
+  {
+    "title": "Projet Keur Moussa – Sénégal",
+    "description": "À Keur-Moussa au Sénégal, les enfants font face à des défis en raison des ressources limitées de leurs parents. Ce projet, géré par les moines de l'abbaye de Keur-Moussa, fournit un soutien essentiel, y compris le matériel scolaire, pour aider les enfants à s'épanouir académiquement et personnellement.",
+    "images": ["/projects/kerr.webp", "/projects/ker.webp", "/projects/ke.webp", "/projects/k.webp"]
   }
+],
+  "contactCTA": {
+    "title": "Découvrez comment vous impliquer dans nos actions communautaires",
+    "description": "Nous sommes toujours ravis de nous connecter avec des personnes et des organisations passionnées. Contactez-nous pour savoir comment vous pouvez contribuer aux programmes d'ASCA Luxembourg et aider les enfants à s'épanouir.",
+    "button": "Contactez-nous"
+  }
+
 }

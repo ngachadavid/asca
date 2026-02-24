@@ -1,6 +1,11 @@
+'use client';
+
+import { useTranslation } from '@/lib/useTranslation';
 import Button from "../global/Button";
 
 export default function ProjectsHero() {
+  const { t } = useTranslation();
+
   return (
     <section
       className="h-screen w-full bg-cover bg-center flex items-end justify-start relative"
@@ -12,12 +17,12 @@ export default function ProjectsHero() {
       {/* Content */}
       <div className="relative z-10 text-start w-full md:w-[50%] px-6 mb-4">
         <h1 className="text-xl md:text-4xl font-bold text-white leading-tight mb-6">
-          Explore Our Projects and See How ASCA Luxembourg Creates Lasting Impact
+          {t('projectsHero.title')}
         </h1>
-       
+
         {/* CTA Button */}
         <div>
-          <Button href="/testimonials">See Stories of Impact</Button>
+          <Button href="/testimonials">{t('projectsHero.cta')}</Button>
         </div>
       </div>
     </section>

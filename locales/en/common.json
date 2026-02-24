@@ -127,5 +127,52 @@
         "content": "We prepare children for long-term success by nurturing practical skills, resilience, and ambition — empowering them to shape their own futures with confidence."
       }
     ]
+  },
+"history": {
+  "title": "Our History",
+  "text": "Created on July 30, 2023, by a group of Benedictine Secular Oblates belonging to the Third Benedictine Order of the Abbey of Clervaux, the Association believes that helping an orphaned, poor, or abandoned child is like saving humanity for a better world.\n\nPoverty is unjust. ASCA is committed to not leaving behind children living in extreme hardship, providing them with the support they need to pursue a fulfilling education and have enough to eat.\n\nSaint Carlo Acutis, the patron of our association, serves as a model for generosity and compassion toward the most vulnerable, the poorest of the poor."
+},
+"ourValues": {
+  "title": "The Values That Guide Our Work",
+  "intro": "Our mission is shaped by principles that ensure every action is thoughtful, sustainable, and centered around the well-being of children.",
+  "cards": [
+    {
+      "title": "Dignity First",
+      "description": "Every child deserves to be treated with respect and care. We approach our work with empathy, ensuring that support empowers rather than labels or defines."
+    },
+    {
+      "title": "Consistency Over Charity",
+      "description": "Real change doesn’t come from one-time gestures. We focus on steady, reliable support that builds trust and creates lasting stability in children’s lives."
+    },
+    {
+      "title": "Community-Led Support",
+      "description": "We believe solutions are strongest when rooted in community. By working closely with families, educators, and local partners, we ensure our impact is meaningful and sustainable."
+    },
+    {
+      "title": "Long-Term Impact",
+      "description": "Our goal isn’t short-term relief, but long-term transformation. We invest in education, resilience, and opportunity so children can shape their own futures with confidence."
+    }
+  ]
+},
+  "projectsHero": {
+    "title": "Explore Our Projects and See How ASCA Luxembourg Creates Lasting Impact",
+    "cta": "See Stories of Impact"
+  },
+  "projects": [
+  {
+    "title": "Orphelinat de Mugera – Burundi",
+    "description": "Mugera is a small village in the Gitega province of central Burundi. The orphanage, home to around 40 children, was once supported by the parish and volunteers. Post-COVID and due to extreme poverty, the project struggles. Donations from ASCA provide meals and school supplies, making a real difference in the children's lives.",
+    "images": ["/projects/kr.webp", "/projects/kerrr.webp"]
+  },
+  {
+    "title": "Projet Keur Moussa – Sénégal",
+    "description": "At Keur-Moussa in Senegal, children face challenges due to parents’ limited resources. This project, managed by the monks of the Abbey of Keur-Moussa, provides essential support including school materials to help children thrive academically and personally.",
+    "images": ["/projects/kerr.webp", "/projects/ker.webp", "/projects/ke.webp", "/projects/k.webp"]
+  }
+],
+  "contactCTA": {
+    "title": "Learn how to get involved with our community-based work",
+    "description": "We are always eager to connect with passionate individuals and organizations. Reach out to learn how you can contribute to ASCA Luxembourg programs and help children thrive.",
+    "button": "Get in Touch"
   }
 }
