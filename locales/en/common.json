@@ -243,6 +243,15 @@
     "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGrand Duchy of Luxembourg",
     "contactTitle": "Contact",
     "bottomText": "© 2026 ASCA Luxembourg. All rights reserved."
+  },
+  "bankDetails": {
+    "title": "Bank Transfer Details",
+    "subtitle": "Support ASCA Luxembourg through a direct bank transfer",
+    "accountHolder": "Account Holder",
+    "iban": "IBAN",
+    "bankName": "Bank",
+    "address": "Organization Address",
+    "copy": "Copy",
+    "note": "Please include your name and email in the transfer reference so we can send you a receipt and confirmation."
   }
-
 }

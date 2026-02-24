@@ -243,5 +243,15 @@
     "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGroßherzogtum Luxemburg",
     "contactTitle": "Kontakt",
     "bottomText": "© 2026 ASCA Luxemburg. Alle Rechte vorbehalten."
+  },
+  "bankDetails": {
+    "title": "Bankverbindung",
+    "subtitle": "Unterstützen Sie ASCA Luxemburg durch eine Banküberweisung",
+    "accountHolder": "Kontoinhaber",
+    "iban": "IBAN",
+    "bankName": "Bank",
+    "address": "Organisationsadresse",
+    "copy": "Kopieren",
+    "note": "Bitte geben Sie Ihren Namen und Ihre E-Mail-Adresse in der Überweisungsreferenz an, damit wir Ihnen eine Quittung und Bestätigung senden können."
   }
 }

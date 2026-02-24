@@ -1,3 +1,4 @@
+import BankDetailsSection from '@/components/donate/BankDetails'
 import DonateHero from '@/components/donate/DonateHero'
 import DonateMissionSection from '@/components/donate/DonateMission'
 import Footer from '@/components/global/Footer'
@@ -49,6 +50,7 @@ export default function Page() {
       <Navbar />
       <DonateHero />
       <DonateMissionSection />
+      <BankDetailsSection />
       <Footer />
     </>
   )
