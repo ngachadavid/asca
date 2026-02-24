@@ -1,31 +1,12 @@
 "use client";
 import { useState } from "react";
+import { useTranslation } from '@/lib/useTranslation';
 
 export default function OurResponse() {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState(0);
 
-  const items = [
-    {
-      title: "Education & Retention",
-      content:
-        "We work to keep children engaged in school through mentorship, learning resources, and continuous encouragement. Education becomes a pathway forward, not a privilege at risk.",
-    },
-    {
-      title: "Nutrition & Basic Support",
-      content:
-        "By addressing hunger and essential needs, we create the stability children require to focus, grow, and participate fully in school and community life.",
-    },
-    {
-      title: "Emotional Care & Inclusion",
-      content:
-        "Through safe spaces, guidance, and community connection, we help children rebuild confidence and feel seen, supported, and valued.",
-    },
-    {
-      title: "Skills & Future Opportunities",
-      content:
-        "We prepare children for long-term success by nurturing practical skills, resilience, and ambition — empowering them to shape their own futures with confidence.",
-    },
-  ];
+  const items = t('ourResponse.items');
 
   const toggleItem = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -38,12 +19,10 @@ export default function OurResponse() {
         {/* Left – 40% */}
         <div className="md:col-span-2">
           <h2 className="text-xl md:text-3xl font-bold text-black mb-4">
-            Our Response
+            {t('ourResponse.title')}
           </h2>
           <p className="mt-6 text-black/90 text-lg">
-            Lasting change begins with thoughtful support. We focus on practical,
-            consistent interventions that help children regain stability,
-            confidence, and opportunity.
+            {t('ourResponse.intro')}
           </p>
         </div>
 

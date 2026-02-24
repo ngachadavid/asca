@@ -91,5 +91,41 @@
       "optional": "(optional)",
       "submit": "Nachricht senden"
     }
+  },
+  "aboutHero": {
+    "title": "Wir befähigen Kinder, die mit Schwierigkeiten konfrontiert sind, durch Bildung, Betreuung und Chancen für eine bessere Zukunft.",
+    "button": "Unterstützen Sie uns"
+  },
+  "theChallenge": {
+    "title": "Die Herausforderung",
+    "intro": "Viele Kinder stehen vor Barrieren, die über das Klassenzimmer hinausgehen — Herausforderungen, die ihre Zukunft leise formen, lange bevor sie die Chance haben, sie zu wählen.",
+    "paragraphs": {
+      "p1": "Für einige Kinder wird die Schule schwierig, nicht weil es ihnen an Potenzial fehlt, sondern weil Armut ständige Unsicherheit schafft. Wenn Familien Schwierigkeiten haben, sich Mahlzeiten, Uniformen oder grundlegende Materialien zu leisten, kann Bildung langsam außer Reichweite geraten.",
+      "p2": "Mangelernährung betrifft mehr als die körperliche Gesundheit — sie beeinträchtigt Konzentration, Selbstvertrauen und langfristige Entwicklung. Ein hungriges Kind kann sich nicht vollständig auf das Lernen konzentrieren oder mit der gleichen Energie wie seine Altersgenossen teilnehmen.",
+      "p3": "Isolation und emotionale Belastung folgen oft auf Verlust oder Schwierigkeiten. Kinder, die Trauer, Vertreibung oder soziale Ausgrenzung erleben, können sich zurückziehen und emotionale Lasten tragen, die prägen, wie sie sich selbst und die Welt sehen.",
+      "p4": "Diese Herausforderungen sind miteinander verbunden. Schulabbruch, Armut, Hunger und emotionale Belastung existieren selten allein. Um dauerhaften Wandel zu schaffen, muss die Unterstützung das ganze Kind ansprechen — akademisch, sozial und emotional."
+    }
+  },
+  "ourResponse": {
+    "title": "Unsere Antwort",
+    "intro": "Dauerhafter Wandel beginnt mit durchdachter Unterstützung. Wir konzentrieren uns auf praktische, konsistente Interventionen, die Kindern helfen, Stabilität, Selbstvertrauen und Chancen zurückzugewinnen.",
+    "items": [
+      {
+        "title": "Bildung und Verbleib",
+        "content": "Wir arbeiten daran, Kinder durch Mentoring, Lernressourcen und kontinuierliche Ermutigung in der Schule zu halten. Bildung wird zu einem Weg nach vorne, nicht zu einem gefährdeten Privileg."
+      },
+      {
+        "title": "Ernährung und Grundversorgung",
+        "content": "Indem wir Hunger und grundlegende Bedürfnisse angehen, schaffen wir die Stabilität, die Kinder benötigen, um sich zu konzentrieren, zu wachsen und vollständig am Schul- und Gemeinschaftsleben teilzunehmen."
+      },
+      {
+        "title": "Emotionale Betreuung und Inklusion",
+        "content": "Durch sichere Räume, Anleitung und Gemeinschaftsverbindungen helfen wir Kindern, Selbstvertrauen aufzubauen und sich gesehen, unterstützt und wertgeschätzt zu fühlen."
+      },
+      {
+        "title": "Fähigkeiten und Zukunftschancen",
+        "content": "Wir bereiten Kinder auf langfristigen Erfolg vor, indem wir praktische Fähigkeiten, Resilienz und Ehrgeiz fördern — und sie befähigen, ihre eigene Zukunft mit Selbstvertrauen zu gestalten."
+      }
+    ]
   }
 }

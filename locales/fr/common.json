@@ -92,5 +92,42 @@
       "optional": "(optionnel)",
       "submit": "Envoyer le message"
     }
+  },
+  "aboutHero": {
+    "title": "Nous donnons aux enfants confrontés à des difficultés les moyens d'agir grâce à l'éducation, aux soins et aux opportunités de construire un avenir meilleur.",
+    "button": "Soutenez-nous"
+  },
+  "theChallenge": {
+    "title": "Le défi",
+    "intro": "De nombreux enfants font face à des obstacles qui vont au-delà de la salle de classe — des défis qui façonnent silencieusement leur avenir bien avant qu'ils aient la chance de le choisir.",
+    "paragraphs": {
+      "p1": "Pour certains enfants, l'école devient difficile non pas parce qu'ils manquent de potentiel, mais parce que la pauvreté crée une incertitude constante. Lorsque les familles ont du mal à se payer des repas, des uniformes ou des fournitures de base, l'éducation peut lentement devenir hors de portée.",
+      "p2": "La malnutrition affecte plus que la santé physique — elle impacte la concentration, la confiance et le développement à long terme. Un enfant affamé ne peut pas se concentrer pleinement sur l'apprentissage ou participer avec la même énergie que ses pairs.",
+      "p3": "L'isolement et la détresse émotionnelle suivent souvent la perte ou les difficultés. Les enfants qui connaissent le deuil, le déplacement ou l'exclusion sociale peuvent se retirer, portant des fardeaux émotionnels qui façonnent leur vision d'eux-mêmes et du monde.",
+      "p4": "Ces défis sont interconnectés. Le décrochage scolaire, la pauvreté, la faim et la tension émotionnelle existent rarement seuls. Pour créer un changement durable, le soutien doit s'adresser à l'enfant dans son ensemble — académiquement, socialement et émotionnellement."
+    }
+  }
+,
+  "ourResponse": {
+    "title": "Notre réponse",
+    "intro": "Le changement durable commence par un soutien réfléchi. Nous nous concentrons sur des interventions pratiques et cohérentes qui aident les enfants à retrouver stabilité, confiance et opportunités.",
+    "items": [
+      {
+        "title": "Éducation et rétention",
+        "content": "Nous travaillons pour maintenir les enfants engagés à l'école grâce au mentorat, aux ressources d'apprentissage et aux encouragements continus. L'éducation devient un chemin vers l'avenir, et non un privilège en danger."
+      },
+      {
+        "title": "Nutrition et soutien de base",
+        "content": "En répondant à la faim et aux besoins essentiels, nous créons la stabilité dont les enfants ont besoin pour se concentrer, grandir et participer pleinement à la vie scolaire et communautaire."
+      },
+      {
+        "title": "Soins émotionnels et inclusion",
+        "content": "Grâce à des espaces sûrs, à des conseils et à des connexions communautaires, nous aidons les enfants à reconstruire leur confiance et à se sentir vus, soutenus et valorisés."
+      },
+      {
+        "title": "Compétences et opportunités futures",
+        "content": "Nous préparons les enfants à un succès à long terme en développant des compétences pratiques, la résilience et l'ambition — leur permettant de façonner leur propre avenir avec confiance."
+      }
+    ]
   }
 }

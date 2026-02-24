@@ -91,5 +91,41 @@
       "optional": "(optional)",
       "submit": "Send Message"
     }
+  },
+  "aboutHero": {
+    "title": "We empower children facing hardship with education, care, and opportunities to build a brighter future.",
+    "button": "Support Us"
+  },
+  "theChallenge": {
+    "title": "The Challenge",
+    "intro": "Many children face barriers that go beyond the classroom — challenges that quietly shape their future long before they have the chance to choose it.",
+    "paragraphs": {
+      "p1": "For some children, school becomes difficult not because they lack potential, but because poverty creates constant uncertainty. When families struggle to afford meals, uniforms, or basic supplies, education can slowly slip out of reach.",
+      "p2": "Malnutrition affects more than physical health — it impacts concentration, confidence, and long-term development. A hungry child cannot fully focus on learning or participate with the same energy as their peers.",
+      "p3": "Isolation and emotional distress often follow loss or hardship. Children who experience bereavement, displacement, or social exclusion may withdraw, carrying emotional burdens that shape how they see themselves and the world.",
+      "p4": "These challenges are interconnected. School dropout, poverty, hunger, and emotional strain rarely exist alone. To create lasting change, support must address the whole child — academically, socially, and emotionally."
+    }
+  },
+  "ourResponse": {
+    "title": "Our Response",
+    "intro": "Lasting change begins with thoughtful support. We focus on practical, consistent interventions that help children regain stability, confidence, and opportunity.",
+    "items": [
+      {
+        "title": "Education & Retention",
+        "content": "We work to keep children engaged in school through mentorship, learning resources, and continuous encouragement. Education becomes a pathway forward, not a privilege at risk."
+      },
+      {
+        "title": "Nutrition & Basic Support",
+        "content": "By addressing hunger and essential needs, we create the stability children require to focus, grow, and participate fully in school and community life."
+      },
+      {
+        "title": "Emotional Care & Inclusion",
+        "content": "Through safe spaces, guidance, and community connection, we help children rebuild confidence and feel seen, supported, and valued."
+      },
+      {
+        "title": "Skills & Future Opportunities",
+        "content": "We prepare children for long-term success by nurturing practical skills, resilience, and ambition — empowering them to shape their own futures with confidence."
+      }
+    ]
   }
 }
