@@ -228,5 +228,21 @@
       "p1": "Votre générosité nous aide à soutenir les enfants confrontés à la pauvreté, au décrochage scolaire, à la faim et à l’isolement. Chaque contribution renforce notre capacité à fournir un soutien éducatif, une alimentation et un accompagnement émotionnel à ceux qui en ont le plus besoin.",
       "p2": "Chez ASCA Luxembourg, nous croyons au pouvoir de l’action collective. Chaque donateur devient partie prenante d’une mission commune — construire un monde plus juste où chaque enfant a la possibilité d’apprendre, de grandir et de s’épanouir avec dignité."
     }
+  },
+  "footer": {
+    "organization": "ASCA Luxembourg",
+    "organizationDetails": "Carlo Acutis Luxembourg Educational Support ASBL\nAssociation à but non lucratif\nNuméro d'enregistrement : F14177",
+    "quickLinks": "Liens rapides",
+    "links": {
+      "home": "Accueil",
+      "about": "À propos",
+      "projects": "Projets",
+      "testimonials": "Témoignages",
+      "donate": "Faire un don"
+    },
+    "addressTitle": "Adresse",
+    "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGrand-Duché de Luxembourg",
+    "contactTitle": "Contact",
+    "bottomText": "© 2026 ASCA Luxembourg. Tous droits réservés."
   }
 }

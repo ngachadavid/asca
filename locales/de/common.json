@@ -24,7 +24,7 @@
     },
     "dropout": {
       "title": "Prävention von Schulabbrüchen",
-      "description": "ASCA arbeitet daran, Schulabbrüche zu bekämpfen, insbesondere bei Waisenkindern und solchen, die mit Trauer umgehen. Durch die Kombination von akademischer Unterstützung mit emotionaler Anleitung, personalisierten Lernplänen und engmaschiger Betreuung stellen wir sicher, dass Kinder in der Schule engagiert bleiben und ihren Bildungsweg fortsetzen."
+      "description": "ASCA arbeitet daran, Schulabbrüche zu bekämpfen, insbesondere bei Waisenkindern und solchen, die mit Trauer umgehen. Durch die Kombination von akademischer Unterstützung, personalisierten Lernplänen und engmaschiger Betreuung stellen wir sicher, dass Kinder in der Schule engagiert bleiben und ihren Bildungsweg fortsetzen."
     },
     "inclusion": {
       "title": "Soziale Inklusion und Armutsbekämpfung",
@@ -32,8 +32,8 @@
     },
     "nutrition": {
       "title": "Ernährung und Wohlbefinden",
-      "description": "ASCA bekämpft Hunger und Mangelernährung durch die Bereitstellung wesentlicher Ressourcen und Nahrung. Unsere Programme stellen sicher, dass Kinder Zugang zu ausgewogenen Mahlzeiten, Gesundheitserziehung und Unterstützung für ihr körperliches und emotionales Wohlbefinden haben, damit sie in einer sicheren und gesunden Umgebung wachsen, lernen und gedeihen können."
-    }
+      "description": "ASCA bekämpft Hunger und Mangelernährung durch die Bereitstellung wesentlicher Ressourcen und Nahrung. Unsere Programme stellen sicher, dass Kinder Zugang zu ausgewogenen Mahlzeiten, Gesundheitserziehung und Unterstützung für ihr körperliches und emotionales Wohlbefinden haben, damit sie in einer sicheren Umgebung wachsen, lernen und gedeihen können."
+     }
   },
   "testimonial": {
     "title": "Hören Sie von einem der Leben, die wir unterstützen",
@@ -227,5 +227,21 @@
       "p1": "Ihre Großzügigkeit hilft uns, Kinder zu unterstützen, die mit Armut, Schulabbruch, Hunger und Isolation konfrontiert sind. Jeder Beitrag stärkt unsere Fähigkeit, Bildungsunterstützung, Nahrung und emotionale Betreuung für diejenigen bereitzustellen, die sie am dringendsten benötigen.",
       "p2": "Bei ASCA Luxemburg glauben wir an die Kraft kollektiven Handelns. Jeder Spender wird Teil einer gemeinsamen Mission – den Aufbau einer gerechteren Welt, in der jedes Kind die Möglichkeit hat, zu lernen, zu wachsen und mit Würde zu gedeihen."
     }
+  },
+  "footer": {
+    "organization": "ASCA Luxemburg",
+    "organizationDetails": "Carlo Acutis Luxembourg Educational Support ASBL\nGemeinnütziger Verein\nRegistrierungsnummer: F14177",
+    "quickLinks": "Schnellzugriffe",
+    "links": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "projects": "Projekte",
+      "testimonials": "Referenzen",
+      "donate": "Spenden"
+    },
+    "addressTitle": "Adresse",
+    "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGroßherzogtum Luxemburg",
+    "contactTitle": "Kontakt",
+    "bottomText": "© 2026 ASCA Luxemburg. Alle Rechte vorbehalten."
   }
 }
