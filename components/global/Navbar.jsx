@@ -31,7 +31,7 @@ export default function Navbar() {
 
               {/* Tagline */}
               <span className="text-base text-[#3399FF] max-w-xs">
-                Save the Child for a Better World
+                {t('nav.tagline')}
               </span>
             </div>
           </Link>
@@ -69,7 +69,7 @@ export default function Navbar() {
         <div className="px-4 py-3">
           <Link href="/" className="flex items-center gap-2">
             <img src="/homepage/asca.jpeg" alt="ASCA Logo" className="h-10 w-auto" />
-            
+
             <div className="flex items-center gap-2">
               {/* ASCA Luxembourg Stacked */}
               <div className="flex flex-col items-start leading-none -space-y-1">
@@ -82,7 +82,7 @@ export default function Navbar() {
 
               {/* Tagline */}
               <span className="text-xs text-[#3399FF]">
-                Save the Child for a Better World
+                {t('nav.tagline')}
               </span>
             </div>
           </Link>
@@ -92,7 +92,7 @@ export default function Navbar() {
         <div className="bg-[#3399FF] px-4 py-2 flex items-center justify-between">
           {/* Language Switcher */}
           <div className="scale-90 origin-left">
-            
+
             <Button href="/donate" className="">
               {t('nav.donate')}
             </Button>
