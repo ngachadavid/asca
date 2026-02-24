@@ -72,4 +72,24 @@
       }
     ]
   }
+  ,
+  "donateCTA": {
+    "title": "An ASCA spenden",
+    "description": "Unterstützen Sie gefährdete Kinder durch Bildung, Ernährung und emotionale Betreuung. Gemeinsam können wir Gemeinschaften schaffen, in denen jedes Kind gedeiht.",
+    "inquiry": "Für Anfragen kontaktieren Sie bitte unser Team.",
+    "button": "An ASCA spenden"
+  }
+  ,
+  "contact": {
+    "title": "Kinder stärken, die mit Verlust und Not konfrontiert sind",
+    "subtitle": "Finden Sie hier unsere Kontaktdaten, um schnell Kontakt aufzunehmen und unsere Mission zur Unterstützung gefährdeter Kinder zu unterstützen.",
+    "form": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "optional": "(optional)",
+      "submit": "Nachricht senden"
+    }
+  }
 }

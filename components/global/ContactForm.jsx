@@ -1,17 +1,22 @@
+'use client';
+
 import React from "react";
 import Button from "./Button";
+import { useTranslation } from '@/lib/useTranslation';
 
 export default function ContactSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full bg-white py-20 px-6 md:px-16">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 md:gap-16 items-center">
         {/* Left Side - Copy */}
         <div className="md:w-1/2 text-left">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-            Empowering Children Facing Loss and Hardship
+            {t('contact.title')}
           </h2>
           <p className="text-black/90 text-lg md:text-xl leading-relaxed mb-6">
-            Find our contact details here to connect swiftly and support our mission helping vulnerable children.
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -21,7 +26,7 @@ export default function ContactSection() {
             {/* Name Field */}
             <div>
               <label htmlFor="name" className="block text-black font-semibold mb-2">
-                Your Name
+                {t('contact.form.name')}
               </label>
               <input
                 type="text"
@@ -35,7 +40,7 @@ export default function ContactSection() {
             {/* Email Field */}
             <div>
               <label htmlFor="email" className="block text-black font-semibold mb-2">
-                Your Email
+                {t('contact.form.email')}
               </label>
               <input
                 type="email"
@@ -49,7 +54,7 @@ export default function ContactSection() {
             {/* Subject Field */}
             <div>
               <label htmlFor="subject" className="block text-black font-semibold mb-2">
-                Subject
+                {t('contact.form.subject')}
               </label>
               <input
                 type="text"
@@ -63,7 +68,7 @@ export default function ContactSection() {
             {/* Message Field */}
             <div>
               <label htmlFor="message" className="block text-black font-semibold mb-2">
-                Your Message <span className="text-gray-500 font-normal">(optional)</span>
+                {t('contact.form.message')} <span className="text-gray-500 font-normal">{t('contact.form.optional')}</span>
               </label>
               <textarea
                 id="message"
@@ -79,7 +84,7 @@ export default function ContactSection() {
               bgColor="#3399FF"
               className="w-full md:w-auto"
             >
-              Send Message
+              {t('contact.form.submit')}
             </Button>
           </form>
         </div>

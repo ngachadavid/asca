@@ -72,4 +72,24 @@
       }
     ]
   }
+  ,
+  "donateCTA": {
+    "title": "Donate to ASCA",
+    "description": "Support vulnerable children through education, nourishment, and emotional care. Together, we can create communities where every child thrives.",
+    "inquiry": "For inquiries, please contact our team.",
+    "button": "Donate to ASCA"
+  }
+  ,
+  "contact": {
+    "title": "Empowering Children Facing Loss and Hardship",
+    "subtitle": "Find our contact details here to connect swiftly and support our mission helping vulnerable children.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "optional": "(optional)",
+      "submit": "Send Message"
+    }
+  }
 }

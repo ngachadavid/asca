@@ -73,4 +73,24 @@
       }
     ]
   }
+  ,
+  "donateCTA": {
+    "title": "Faire un don à ASCA",
+    "description": "Soutenez les enfants vulnérables par l'éducation, la nutrition et les soins émotionnels. Ensemble, nous pouvons créer des communautés où chaque enfant s'épanouit.",
+    "inquiry": "Pour toute demande, veuillez contacter notre équipe.",
+    "button": "Faire un don à ASCA"
+  }
+  ,
+  "contact": {
+    "title": "Autonomiser les enfants confrontés à la perte et aux difficultés",
+    "subtitle": "Trouvez nos coordonnées ici pour nous contacter rapidement et soutenir notre mission d'aide aux enfants vulnérables.",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre email",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "optional": "(optionnel)",
+      "submit": "Envoyer le message"
+    }
+  }
 }
