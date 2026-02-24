@@ -3,9 +3,11 @@
 import Link from 'next/link';
 import Button from './Button';
 import { useState } from 'react';
+import { useTranslation } from '@/lib/useTranslation';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-20">
@@ -21,19 +23,25 @@ export default function Navbar() {
         {/* Middle - Navigation Links (Desktop) */}
         <ul className="hidden md:flex space-x-8 text-gray-900 font-bold">
           <li>
-            <Link href="/about" className="hover:text-[#3399FF] transition">About</Link>
+            <Link href="/about" className="hover:text-[#3399FF] transition">
+              {t('nav.about')}
+            </Link>
           </li>
           <li>
-            <Link href="/projects" className="hover:text-[#3399FF] transition">Projects</Link>
+            <Link href="/projects" className="hover:text-[#3399FF] transition">
+              {t('nav.projects')}
+            </Link>
           </li>
           <li>
-            <Link href="/testimonials" className="hover:text-[#3399FF] transition">Testimonials</Link>
+            <Link href="/testimonials" className="hover:text-[#3399FF] transition">
+              {t('nav.testimonials')}
+            </Link>
           </li>
         </ul>
 
         {/* Right - Donate Button (Desktop) */}
         <div className="hidden md:block">
-          <Button href="/donate">Donate</Button>
+          <Button href="/donate">{t('nav.donate')}</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -56,24 +64,24 @@ export default function Navbar() {
             onClick={() => setIsMenuOpen(false)}
             className="text-2xl font-bold text-gray-900 hover:text-[#3399FF] transition"
           >
-            About
+            {t('nav.about')}
           </Link>
           <Link 
             href="/projects" 
             onClick={() => setIsMenuOpen(false)}
             className="text-2xl font-bold text-gray-900 hover:text-[#3399FF] transition"
           >
-            Projects
+            {t('nav.projects')}
           </Link>
           <Link 
             href="/testimonials" 
             onClick={() => setIsMenuOpen(false)}
             className="text-2xl font-bold text-gray-900 hover:text-[#3399FF] transition"
           >
-            Testimonials
+            {t('nav.testimonials')}
           </Link>
           <div onClick={() => setIsMenuOpen(false)}>
-            <Button href="/donate">Donate</Button>
+            <Button href="/donate">{t('nav.donate')}</Button>
           </div>
         </div>
       </div>
