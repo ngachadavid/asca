@@ -1,4 +1,10 @@
+'use client';
+
+import { useTranslation } from '@/lib/useTranslation';
+
 export default function MissionSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full py-20 px-6 md:px-16 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
@@ -6,10 +12,11 @@ export default function MissionSection() {
         {/* Text Content - Left Side */}
         <div className="md:w-1/2 text-center">
           <h2 className="text-black/90 text-lg md:text-xl leading-relaxed">
-            ASCA <span className="font-bold">(Appui Scolaire Carlo Acutis)</span> Luxembourg was founded under the inspiration of the young Saint Carlo Acutis, carrying forward his legacy of compassion and service to those in need.
+            {t('mission.line1')} <span className="font-bold">{t('mission.line1Bold')}</span> {t('mission.line1Rest')}
           </h2>
           <h2 className="text-black/90 text-lg md:text-xl leading-relaxed">
-            We are a non-profit organization founded on the belief that everyone deserves equal access to education, healthcare, and support.</h2>
+            {t('mission.line2')}
+          </h2>
         </div>
 
         {/* Image - Right Side */}

@@ -51,4 +51,26 @@
     },
     "signature": "— Mme Béatrice Ntunzwenayo"
   }
+  ,
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "questions": [
+      {
+        "question": "Comment ASCA Luxembourg soutient-elle les étudiants orphelins ?",
+        "answer": "Nous fournissons une assistance éducative, du mentorat et un soutien émotionnel pour aider les enfants orphelins et vulnérables à rester engagés à l'école. Notre objectif est de créer une stabilité qui leur permet de se concentrer, d'apprendre et de renforcer leur confiance en l'avenir."
+      },
+      {
+        "question": "Quelles initiatives abordent le décrochage scolaire chez les enfants en deuil ?",
+        "answer": "Nos programmes combinent soutien académique, conseil et accompagnement personnalisé. En répondant aux besoins émotionnels et éducatifs, nous aidons les enfants à rester motivés et à réduire le risque de quitter prématurément l'école."
+      },
+      {
+        "question": "Comment ASCA lutte-t-elle contre la faim et la malnutrition ?",
+        "answer": "Nous travaillons aux côtés de partenaires communautaires pour garantir que les enfants aient accès à des repas nutritifs et à une sensibilisation de base à la santé. Une nutrition adéquate est essentielle pour l'apprentissage, le développement et le bien-être général."
+      },
+      {
+        "question": "Qui peut bénéficier des services d'ASCA Luxembourg ?",
+        "answer": "Nos programmes sont conçus pour les enfants confrontés à des difficultés sociales et économiques, en particulier ceux à risque de décrochage scolaire. Nous priorisons les enfants qui nécessitent un soutien constant pour surmonter les obstacles éducatifs et émotionnels."
+      }
+    ]
+  }
 }

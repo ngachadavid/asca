@@ -50,4 +50,26 @@
     },
     "signature": "— Frau Béatrice Ntunzwenayo"
   }
+  ,
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "question": "Wie unterstützt ASCA Luxemburg verwaiste Schüler?",
+        "answer": "Wir bieten Bildungsunterstützung, Mentoring und emotionale Unterstützung, um verwaisten und gefährdeten Kindern zu helfen, in der Schule engagiert zu bleiben. Unser Ziel ist es, Stabilität zu schaffen, die es ihnen ermöglicht, sich zu konzentrieren, zu lernen und Vertrauen in ihre Zukunft aufzubauen."
+      },
+      {
+        "question": "Welche Initiativen befassen sich mit Schulabbrüchen bei trauernden Kindern?",
+        "answer": "Unsere Programme kombinieren akademische Unterstützung mit Beratung und personalisierter Anleitung. Indem wir sowohl emotionale als auch Bildungsbedürfnisse ansprechen, helfen wir Kindern, motiviert zu bleiben und das Risiko eines vorzeitigen Schulabbruchs zu verringern."
+      },
+      {
+        "question": "Wie bekämpft ASCA Hunger und Mangelernährung?",
+        "answer": "Wir arbeiten mit Gemeinschaftspartnern zusammen, um sicherzustellen, dass Kinder Zugang zu nahrhaften Mahlzeiten und grundlegendem Gesundheitsbewusstsein haben. Eine angemessene Ernährung ist für das Lernen, die Entwicklung und das allgemeine Wohlbefinden unerlässlich."
+      },
+      {
+        "question": "Wer kann von den Dienstleistungen von ASCA Luxemburg profitieren?",
+        "answer": "Unsere Programme sind für Kinder konzipiert, die mit sozialen und wirtschaftlichen Schwierigkeiten konfrontiert sind, insbesondere solche, die von Schulabbruch bedroht sind. Wir priorisieren Kinder, die konsequente Unterstützung benötigen, um Bildungs- und emotionale Barrieren zu überwinden."
+      }
+    ]
+  }
 }

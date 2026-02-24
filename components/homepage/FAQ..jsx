@@ -1,37 +1,20 @@
-'use client'
+'use client';
+
 import { useState } from "react";
+import { useTranslation } from '@/lib/useTranslation';
 
 export default function FAQSection() {
-  const faqs = [
-    {
-      question: "How does ASCA Luxembourg support orphaned students?",
-      answer:
-        "We provide educational assistance, mentorship, and emotional support to help orphaned and vulnerable children remain engaged in school. Our goal is to create stability that allows them to focus, learn, and build confidence in their future.",
-    },
-    {
-      question: "What initiatives address school dropout among bereaved children?",
-      answer:
-        "Our programs combine academic support with counseling and personalized guidance. By addressing both emotional and educational needs, we help children stay motivated and reduce the risk of leaving school prematurely.",
-    },
-    {
-      question: "How does ASCA tackle hunger and malnutrition?",
-      answer:
-        "We work alongside community partners to ensure children have access to nutritious meals and basic health awareness. Proper nourishment is essential for learning, development, and overall well-being.",
-    },
-    {
-      question: "Who can benefit from ASCA Luxembourg’s services?",
-      answer:
-        "Our programs are designed for children facing social and economic hardship, particularly those at risk of school dropout. We prioritize children who require consistent support to overcome educational and emotional barriers.",
-    },
-  ];
+  const { t } = useTranslation();
+  const [openIndex, setOpenIndex] = useState(0);
 
-  const [openIndex, setOpenIndex] = useState(0); // first one open by default
+  // Get FAQs from translations
+  const faqs = t('faq.questions');
 
   return (
     <section className="py-20 px-6 md:px-16 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-xl md:text-3xl font-bold text-black mb-4 text-center">
-          Frequently Asked Questions
+          {t('faq.title')}
         </h2>
 
         <div className="space-y-4">
