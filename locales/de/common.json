@@ -175,6 +175,47 @@
     "title": "Erfahren Sie, wie Sie sich in unserer gemeindebasierten Arbeit engagieren können",
     "description": "Wir freuen uns immer, mit engagierten Personen und Organisationen in Kontakt zu treten. Kontaktieren Sie uns, um zu erfahren, wie Sie zu den Programmen von ASCA Luxemburg beitragen und Kindern helfen können, erfolgreich zu sein.",
     "button": "Kontakt aufnehmen"
+  },
+  "testimonialHero": {
+    "title": "Hören Sie von Menschen, deren Leben durch unsere Programme verändert wurde, und sehen Sie die wirkliche Wirkung Ihrer Unterstützung.",
+    "cta": "Mitwirken"
+  },
+  "testimonialSection": {
+    "header": "Was die Menschen sagen",
+    "testimonials": [
+      {
+        "quote": "Das Mitgefühl und Engagement des ASCA-Teams haben einen echten Unterschied im Bildungsweg unseres Kindes gemacht.",
+        "name": "Lehrer und Freiwilliger"
+      },
+      {
+        "quote": "Die fachkundige Unterstützung von ASCA Luxemburg hilft gefährdeten Schülern, Hindernisse zu überwinden und Vertrauen in ihre Fähigkeiten zu gewinnen.",
+        "name": "Koordinator der Gemeindearbeit"
+      },
+      {
+        "quote": "Als Freiwillige habe ich aus erster Hand die unglaubliche Wirkung von ASCA auf gefährdete Kinder erlebt. Ihr Engagement für sichere, fördernde Umgebungen ist wirklich inspirierend.",
+        "name": "Sophie Laurent"
+      },
+      {
+        "quote": "Ihr ganzheitlicher Ansatz stellt sicher, dass Kinder nicht nur in der Schule bleiben, sondern sich auf jedem Schritt wertgeschätzt und unterstützt fühlen.",
+        "name": "Sozialarbeiter"
+      }
+    ]
+  },
+  "certifications": {
+    "header": "Anerkennung & Auszeichnungen",
+    "awards": [
+      {
+        "title": "Zertifizierter Kinderwohlfahrtsvertreter",
+        "description": "Anerkannt für die Einhaltung höchster Standards bei der Unterstützung der Bildung und des Wohlergehens gefährdeter Kinder."
+      },
+      {
+        "title": "Preis für Gemeinschaftsermächtigung",
+        "description": "Ausgezeichnet für die Förderung von Inklusion und Bereitstellung wichtiger Ressourcen für Kinder in extremer Armut."
+      },
+      {
+        "title": "Exzellenz in der Bildungsunterstützung",
+        "description": "Gewürdigt für wirkungsvolle Programme zur Reduzierung von Schulabbrüchen und zur Förderung des akademischen Erfolgs."
+      }
+    ]
   }
-
 }

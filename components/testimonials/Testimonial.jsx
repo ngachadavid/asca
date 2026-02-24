@@ -1,32 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function TestimonialSection() {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const testimonials = [
-    {
-      quote:
-        "The compassion and commitment shown by the ASCA team made a real difference in our child’s educational journey.",
-      name: "Teacher and Volunteer",
-    },
-    {
-      quote:
-        "ASCA Luxembourg’s expert support helps vulnerable students overcome obstacles and gain confidence in their abilities.",
-      name: "Community Outreach Coordinator",
-    },
-    {
-      quote:
-        "As a volunteer, I witnessed firsthand the incredible impact ASCA has on vulnerable children. Their dedication to creating safe, nurturing environments is truly inspiring.",
-      name: "Sophie Laurent",
-    },
-    {
-      quote:
-        "Their holistic approach ensures children not only stay in school but feel valued and supported every step of the way.",
-      name: "Social Worker",
-    },
-  ];
+  // Pull testimonials from the JSON
+  const testimonials = t("testimonialSection.testimonials");
 
   const nextTestimonial = () => {
     setCurrentIndex((prev) => (prev + 1) % testimonials.length);
@@ -45,12 +27,11 @@ export default function TestimonialSection() {
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <h2 className="text-xl md:text-3xl font-bold text-black mb-8 text-center">
-          What People Are Saying
+          {t("testimonialSection.header")}
         </h2>
 
         {/* Testimonial Card */}
         <div className="relative">
-          {/* Gradient Card */}
           <div className="bg-linear-to-r from-blue-400 via-white to-blue-400 rounded-3xl p-12 md:p-16 shadow-xl border-2 border-gray-200 relative">
             {/* Quote Icon */}
             <div className="flex justify-center mb-8">
@@ -79,7 +60,12 @@ export default function TestimonialSection() {
               className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 text-white bg-blue-500 hover:bg-blue-600 rounded-full p-3 transition"
               aria-label="Previous testimonial"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
             </button>
@@ -90,7 +76,12 @@ export default function TestimonialSection() {
               className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 text-white bg-blue-500 hover:bg-blue-600 rounded-full p-3 transition"
               aria-label="Next testimonial"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </button>

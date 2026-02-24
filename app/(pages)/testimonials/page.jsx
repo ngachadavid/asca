@@ -1,5 +1,5 @@
-import Certifications from '@/components/about/Certification'
-import TestimonialsSection from '@/components/about/Testimonial'
+import Certifications from '@/components/testimonials/Certification'
+import TestimonialsSection from '@/components/testimonials/Testimonial'
 import Footer from '@/components/global/Footer'
 import Navbar from '@/components/global/Navbar'
 import TestimonialHero from '@/components/testimonials/Hero'

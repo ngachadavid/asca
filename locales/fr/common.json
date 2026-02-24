@@ -176,6 +176,47 @@
     "title": "Découvrez comment vous impliquer dans nos actions communautaires",
     "description": "Nous sommes toujours ravis de nous connecter avec des personnes et des organisations passionnées. Contactez-nous pour savoir comment vous pouvez contribuer aux programmes d'ASCA Luxembourg et aider les enfants à s'épanouir.",
     "button": "Contactez-nous"
+  },
+  "testimonialHero": {
+    "title": "Découvrez les témoignages de personnes dont la vie a été transformée par nos programmes et constatez l'impact réel de votre soutien.",
+    "cta": "Participez"
+  },
+  "testimonialSection": {
+    "header": "Ce que disent les gens",
+    "testimonials": [
+      {
+        "quote": "La compassion et l'engagement démontrés par l'équipe ASCA ont fait une réelle différence dans le parcours éducatif de notre enfant.",
+        "name": "Enseignant et Bénévole"
+      },
+      {
+        "quote": "Le soutien expert d'ASCA Luxembourg aide les élèves vulnérables à surmonter les obstacles et à gagner en confiance dans leurs capacités.",
+        "name": "Coordinateur de sensibilisation communautaire"
+      },
+      {
+        "quote": "En tant que bénévole, j'ai été témoin de l'impact incroyable d'ASCA sur les enfants vulnérables. Leur dévouement à créer des environnements sûrs et bienveillants est vraiment inspirant.",
+        "name": "Sophie Laurent"
+      },
+      {
+        "quote": "Leur approche holistique garantit que les enfants restent non seulement à l'école, mais se sentent valorisés et soutenus à chaque étape.",
+        "name": "Travailleur social"
+      }
+    ]
+  },
+  "certifications": {
+    "header": "Reconnaissance & Distinctions",
+    "awards": [
+      {
+        "title": "Défenseur Certifié du Bien-Être des Enfants",
+        "description": "Reconnu pour maintenir les plus hauts standards dans le soutien à l'éducation et au bien-être des enfants vulnérables."
+      },
+      {
+        "title": "Prix pour l’Autonomisation Communautaire",
+        "description": "Honoré pour promouvoir l’inclusion et fournir des ressources essentielles aux enfants confrontés à une pauvreté extrême."
+      },
+      {
+        "title": "Excellence dans le Soutien Éducatif",
+        "description": "Reconnu pour des programmes impactants réduisant le décrochage scolaire et favorisant la réussite académique."
+      }
+    ]
   }
-
 }

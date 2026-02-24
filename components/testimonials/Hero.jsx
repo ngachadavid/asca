@@ -1,6 +1,11 @@
+'use client';
+
 import Button from "../global/Button";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function TestimonialHero() {
+  const { t } = useTranslation();
+
   return (
     <section
       className="h-screen w-full bg-cover bg-center flex items-end justify-start relative"
@@ -12,12 +17,12 @@ export default function TestimonialHero() {
       {/* Content */}
       <div className="relative z-10 text-start w-full md:w-[50%] px-6 mb-4">
         <h1 className="text-xl md:text-4xl font-bold text-white leading-tight mb-6">
-         Hear from people whose lives have been transformed by our programs and see the real impact your support can make.
+          {t('testimonialHero.title')}
         </h1>
-       
-         {/* Right - Donate Button */}
+
+        {/* CTA Button */}
         <div>
-          <Button href="/donate">Get Involved</Button>
+          <Button href="/donate">{t('testimonialHero.cta')}</Button>
         </div>
       </div>
     </section>

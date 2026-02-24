@@ -1,26 +1,13 @@
+"use client";
+
 import React from "react";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function Certifications() {
-  const awards = [
-    {
-      title: "Certified Child Welfare Advocate",
-      description:
-        "Recognized for upholding the highest standards in supporting vulnerable children's education and wellbeing.",
-      icon: "🏆",
-    },
-    {
-      title: "Award for Community Empowerment",
-      description:
-        "Honored for fostering inclusion and providing vital resources to children facing extreme poverty.",
-      icon: "🌟",
-    },
-    {
-      title: "Excellence in Educational Support",
-      description:
-        "Acknowledged for impactful programs reducing school dropout and nurturing academic success.",
-      icon: "📚",
-    },
-  ];
+  const { t } = useTranslation();
+  const awards = t("certifications.awards");
+
+  const icons = ["🏆", "🌟", "📚"]; // Icons stay in component
 
   return (
     <section className="py-20 px-6 md:px-16 bg-white">
@@ -28,7 +15,7 @@ export default function Certifications() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-xl md:text-3xl font-bold text-black mb-8 text-center">
-            Recognition & Awards
+            {t("certifications.header")}
           </h2>
         </div>
 
@@ -40,7 +27,7 @@ export default function Certifications() {
               className="p-8 rounded-2xl border-2 border-[#3399FF]"
             >
               {/* Icon */}
-              <div className="text-6xl mb-6 text-center">{award.icon}</div>
+              <div className="text-6xl mb-6 text-center">{icons[index]}</div>
 
               {/* Title */}
               <h3 className="text-lg md:text-xl font-bold text-black/90 mb-4 text-center">

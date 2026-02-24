@@ -174,5 +174,48 @@
     "title": "Learn how to get involved with our community-based work",
     "description": "We are always eager to connect with passionate individuals and organizations. Reach out to learn how you can contribute to ASCA Luxembourg programs and help children thrive.",
     "button": "Get in Touch"
+  },
+  "testimonialHero": {
+    "title": "Hear from people whose lives have been transformed by our programs and see the real impact your support can make.",
+    "cta": "Get Involved"
+  }
+,
+  "testimonialSection": {
+    "header": "What People Are Saying",
+    "testimonials": [
+      {
+        "quote": "The compassion and commitment shown by the ASCA team made a real difference in our child’s educational journey.",
+        "name": "Teacher and Volunteer"
+      },
+      {
+        "quote": "ASCA Luxembourg’s expert support helps vulnerable students overcome obstacles and gain confidence in their abilities.",
+        "name": "Community Outreach Coordinator"
+      },
+      {
+        "quote": "As a volunteer, I witnessed firsthand the incredible impact ASCA has on vulnerable children. Their dedication to creating safe, nurturing environments is truly inspiring.",
+        "name": "Sophie Laurent"
+      },
+      {
+        "quote": "Their holistic approach ensures children not only stay in school but feel valued and supported every step of the way.",
+        "name": "Social Worker"
+      }
+    ]
+  },
+  "certifications": {
+    "header": "Recognition & Awards",
+    "awards": [
+      {
+        "title": "Certified Child Welfare Advocate",
+        "description": "Recognized for upholding the highest standards in supporting vulnerable children's education and wellbeing."
+      },
+      {
+        "title": "Award for Community Empowerment",
+        "description": "Honored for fostering inclusion and providing vital resources to children facing extreme poverty."
+      },
+      {
+        "title": "Excellence in Educational Support",
+        "description": "Acknowledged for impactful programs reducing school dropout and nurturing academic success."
+      }
+    ]
   }
 }
