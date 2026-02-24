@@ -27,12 +27,9 @@ export default function Certifications() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-xl md:text-3xl font-bold text-black mb-8 text-center">
             Recognition & Awards
           </h2>
-          <p className="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto">
-            Honored for our commitment to transforming children's lives
-          </p>
         </div>
 
         {/* Awards Grid */}
@@ -40,18 +37,18 @@ export default function Certifications() {
           {awards.map((award, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl border-2 border-blue-200 hover:border-[#3399FF] transition shadow-lg hover:shadow-xl"
+              className="p-8 rounded-2xl border-2 border-[#3399FF]"
             >
               {/* Icon */}
               <div className="text-6xl mb-6 text-center">{award.icon}</div>
 
               {/* Title */}
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 text-center">
+              <h3 className="text-lg md:text-xl font-bold text-black/90 mb-4 text-center">
                 {award.title}
               </h3>
 
               {/* Description */}
-              <p className="text-gray-700 text-base md:text-lg leading-relaxed text-center">
+              <p className="text-black/80 text-sm md:text-base leading-relaxed text-center">
                 {award.description}
               </p>
             </div>
