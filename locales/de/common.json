@@ -4,5 +4,35 @@
     "projects": "Projekte",
     "testimonials": "Erfahrungsberichte",
     "donate": "Spenden"
+  },
+  "hero": {
+    "title": "Jedes Kind auf seinem Weg zum Erfolg unterstützen",
+    "subtitle": "ASCA Luxemburg setzt sich für Bildung und Betreuung von Kindern in Not ein und hilft ihnen, Herausforderungen wie Armut, Isolation und Verlust zu überwinden, um eine bessere Zukunft aufzubauen.",
+    "cta": "Mehr über uns"
+  },
+  "mission": {
+    "line1": "ASCA",
+    "line1Bold": "(Appui Scolaire Carlo Acutis)",
+    "line1Rest": "Luxemburg wurde unter der Inspiration des jungen Heiligen Carlo Acutis gegründet und führt sein Erbe des Mitgefühls und Dienstes an Bedürftigen fort.",
+    "line2": "Wir sind eine gemeinnützige Organisation, die auf der Überzeugung gegründet wurde, dass jeder gleichen Zugang zu Bildung, Gesundheitsversorgung und Unterstützung verdient."
+  },
+  "impact": {
+    "title": "Entdecken Sie, wie ASCA Luxemburg gefährdete Kinder für eine bessere Welt unterstützt",
+    "education": {
+      "title": "Bildung und Verbleib",
+      "description": "Wir unterstützen die Entwicklung und Bildung von Kindern aus sozial und wirtschaftlich benachteiligten Familien. Durch Mentoring, Anleitung und Zugang zu Lernressourcen helfen wir Kindern, motiviert zu bleiben, regelmäßig zur Schule zu gehen und akademisch erfolgreich zu sein, und legen damit den Grundstein für eine bessere Zukunft."
+    },
+    "dropout": {
+      "title": "Prävention von Schulabbrüchen",
+      "description": "ASCA arbeitet daran, Schulabbrüche zu bekämpfen, insbesondere bei Waisenkindern und solchen, die mit Trauer umgehen. Durch die Kombination von akademischer Unterstützung mit emotionaler Anleitung, personalisierten Lernplänen und engmaschiger Betreuung stellen wir sicher, dass Kinder in der Schule engagiert bleiben und ihren Bildungsweg fortsetzen."
+    },
+    "inclusion": {
+      "title": "Soziale Inklusion und Armutsbekämpfung",
+      "description": "Wir bekämpfen Isolation und extreme Armut, indem wir sichere, unterstützende Umgebungen für Kinder und Familien in Not schaffen. Durch Gemeindeprogramme, soziale Aktivitäten und Beratung fördern wir Inklusion, Resilienz und ein Gefühl der Zugehörigkeit, das Kindern ermöglicht, Herausforderungen zu überwinden und voll an der Gesellschaft teilzuhaben."
+    },
+    "nutrition": {
+      "title": "Ernährung und Wohlbefinden",
+      "description": "ASCA bekämpft Hunger und Mangelernährung durch die Bereitstellung wesentlicher Ressourcen und Nahrung. Unsere Programme stellen sicher, dass Kinder Zugang zu ausgewogenen Mahlzeiten, Gesundheitserziehung und Unterstützung für ihr körperliches und emotionales Wohlbefinden haben, damit sie in einer sicheren und gesunden Umgebung wachsen, lernen und gedeihen können."
+    }
   }
 }

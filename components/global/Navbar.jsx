@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Button from './Button';
 import { useState } from 'react';
 import { useTranslation } from '@/lib/useTranslation';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,8 +40,9 @@ export default function Navbar() {
           </li>
         </ul>
 
-        {/* Right - Donate Button (Desktop) */}
-        <div className="hidden md:block">
+        {/* Right - Language Switcher + Donate Button (Desktop) */}
+        <div className="hidden md:flex items-center gap-4">
+          <LanguageSwitcher />
           <Button href="/donate">{t('nav.donate')}</Button>
         </div>
 
@@ -80,6 +82,10 @@ export default function Navbar() {
           >
             {t('nav.testimonials')}
           </Link>
+
+          {/* Language Switcher in Mobile Menu */}
+          <LanguageSwitcher />
+
           <div onClick={() => setIsMenuOpen(false)}>
             <Button href="/donate">{t('nav.donate')}</Button>
           </div>

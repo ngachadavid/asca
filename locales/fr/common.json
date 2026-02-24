@@ -4,5 +4,35 @@
     "projects": "Projets",
     "testimonials": "Témoignages",
     "donate": "Faire un don"
+  },
+  "hero": {
+    "title": "Soutenir le parcours de chaque enfant vers le succès",
+    "subtitle": "ASCA Luxembourg défend l'éducation et les soins pour les enfants en difficulté, les aidant à surmonter des défis comme la pauvreté, l'isolement et la perte pour construire un avenir meilleur.",
+    "cta": "En savoir plus"
+  },
+  "mission": {
+    "line1": "ASCA",
+    "line1Bold": "(Appui Scolaire Carlo Acutis)",
+    "line1Rest": "Luxembourg a été fondée sous l'inspiration du jeune Saint Carlo Acutis, perpétuant son héritage de compassion et de service envers les plus démunis.",
+    "line2": "Nous sommes une organisation à but non lucratif fondée sur la conviction que chacun mérite un accès égal à l'éducation, aux soins de santé et au soutien."
+  },
+  "impact": {
+    "title": "Découvrez comment ASCA Luxembourg soutient les enfants vulnérables pour un monde meilleur",
+    "education": {
+      "title": "Éducation et rétention",
+      "description": "Nous soutenons le développement et l'éducation des enfants issus de familles socialement et économiquement défavorisées. Grâce au mentorat, aux conseils et à l'accès aux ressources d'apprentissage, nous aidons les enfants à rester motivés, à fréquenter régulièrement l'école et à réussir académiquement, jetant les bases d'un avenir meilleur."
+    },
+    "dropout": {
+      "title": "Prévention du décrochage scolaire",
+      "description": "ASCA travaille à combattre le décrochage scolaire, en particulier chez les enfants orphelins et ceux qui font face au deuil. En combinant soutien académique et accompagnement émotionnel, plans d'apprentissage personnalisés et suivis réguliers, nous veillons à ce que les enfants restent engagés à l'école et poursuivent leur parcours éducatif."
+    },
+    "inclusion": {
+      "title": "Inclusion sociale et lutte contre la pauvreté",
+      "description": "Nous luttons contre l'isolement et l'extrême pauvreté en créant des environnements sûrs et solidaires pour les enfants et les familles dans le besoin. Grâce à des programmes communautaires, des activités sociales et du conseil, nous favorisons l'inclusion, la résilience et le sentiment d'appartenance, permettant aux enfants de surmonter les défis et de participer pleinement à la société."
+    },
+    "nutrition": {
+      "title": "Nutrition et bien-être",
+      "description": "ASCA s'attaque à la faim et à la malnutrition en fournissant des ressources essentielles et de la nourriture. Nos programmes garantissent que les enfants ont accès à des repas équilibrés, à l'éducation à la santé et au soutien de leur bien-être physique et émotionnel, leur permettant de grandir, d'apprendre et de s'épanouir dans un environnement sûr et sain."
+    }
   }
 }
