@@ -53,7 +53,7 @@ export default function LanguageSwitcher() {
   const currentLanguage = languages.find(lang => lang.code === locale);
 
   return (
-    <div className="relative">
+    <div className="relative text-black">
       {/* Dropdown Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
