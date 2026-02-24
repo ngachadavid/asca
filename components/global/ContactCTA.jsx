@@ -27,7 +27,7 @@ export default function ContactCTA() {
 
                             {/* Main button */}
                             <a
-                                href="mailto:community@ascaluxembourg.org"
+                                href="mailto:info@ascal.eu"
                                 className="relative -top-1 -left-1 inline-block px-6 py-3 bg-white text-blue-600 font-semibold border border-black hover:translate-x-1 hover:translate-y-1 transition-transform duration-200"
                             >
                                 {t('contactCTA.button')}
