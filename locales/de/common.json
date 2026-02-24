@@ -217,5 +217,15 @@
         "description": "Gewürdigt für wirkungsvolle Programme zur Reduzierung von Schulabbrüchen und zur Förderung des akademischen Erfolgs."
       }
     ]
+  },
+  "donateHero": {
+    "title": "Ihre Unterstützung kann die Zukunft eines Kindes verändern",
+    "cta": "Lesen Sie ihre Geschichten"
+  },
+  "donateMissionSection": {
+    "paragraphs": {
+      "p1": "Ihre Großzügigkeit hilft uns, Kinder zu unterstützen, die mit Armut, Schulabbruch, Hunger und Isolation konfrontiert sind. Jeder Beitrag stärkt unsere Fähigkeit, Bildungsunterstützung, Nahrung und emotionale Betreuung für diejenigen bereitzustellen, die sie am dringendsten benötigen.",
+      "p2": "Bei ASCA Luxemburg glauben wir an die Kraft kollektiven Handelns. Jeder Spender wird Teil einer gemeinsamen Mission – den Aufbau einer gerechteren Welt, in der jedes Kind die Möglichkeit hat, zu lernen, zu wachsen und mit Würde zu gedeihen."
+    }
   }
 }

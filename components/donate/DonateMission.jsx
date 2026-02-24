@@ -1,4 +1,10 @@
+"use client";
+
+import { useTranslation } from "@/lib/useTranslation";
+
 export default function DonateMissionSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full py-20 px-6 md:px-16 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
@@ -6,11 +12,11 @@ export default function DonateMissionSection() {
         {/* Text Content - Left Side */}
         <div className="md:w-1/2 text-center">
           <h2 className="text-black/90 text-lg md:text-xl leading-relaxed mb-6">
-            Your generosity helps us stand beside children facing poverty, school dropout, hunger, and isolation. Every contribution strengthens our ability to provide education support, nourishment, and emotional care to those who need it most.
+            {t("donateMissionSection.paragraphs.p1")}
           </h2>
 
           <h2 className="text-black/90 text-lg md:text-xl leading-relaxed">
-            At ASCA Luxembourg, we believe in the power of collective action. Every donor becomes part of a shared mission — building a fairer world where every child has the opportunity to learn, grow, and thrive with dignity.
+            {t("donateMissionSection.paragraphs.p2")}
           </h2>
         </div>
 

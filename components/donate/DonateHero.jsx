@@ -1,6 +1,11 @@
+"use client";
+
 import Button from "../global/Button";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function DonateHero() {
+  const { t } = useTranslation();
+
   return (
     <section
       className="h-screen w-full bg-cover bg-top flex items-end justify-start relative"
@@ -12,12 +17,12 @@ export default function DonateHero() {
       {/* Content */}
       <div className="relative z-10 text-start w-full md:w-[50%] px-6 mb-4">
         <h1 className="text-xl md:text-4xl font-bold text-white leading-tight mb-6">
-          Your Support Can Change a Child’s Future
+          {t("donateHero.title")}
         </h1>
-       
+
         {/* CTA Button */}
         <div>
-          <Button href="/testimonials">Read Their Stories</Button>
+          <Button href="/testimonials">{t("donateHero.cta")}</Button>
         </div>
       </div>
     </section>

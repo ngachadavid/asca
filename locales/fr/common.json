@@ -218,5 +218,15 @@
         "description": "Reconnu pour des programmes impactants réduisant le décrochage scolaire et favorisant la réussite académique."
       }
     ]
+  },
+  "donateHero": {
+    "title": "Votre soutien peut changer l’avenir d’un enfant",
+    "cta": "Découvrez leurs histoires"
+  },
+  "donateMissionSection": {
+    "paragraphs": {
+      "p1": "Votre générosité nous aide à soutenir les enfants confrontés à la pauvreté, au décrochage scolaire, à la faim et à l’isolement. Chaque contribution renforce notre capacité à fournir un soutien éducatif, une alimentation et un accompagnement émotionnel à ceux qui en ont le plus besoin.",
+      "p2": "Chez ASCA Luxembourg, nous croyons au pouvoir de l’action collective. Chaque donateur devient partie prenante d’une mission commune — construire un monde plus juste où chaque enfant a la possibilité d’apprendre, de grandir et de s’épanouir avec dignité."
+    }
   }
 }
