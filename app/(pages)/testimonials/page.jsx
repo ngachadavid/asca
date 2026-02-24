@@ -1,3 +1,4 @@
+import Certifications from '@/components/about/Certification'
 import TestimonialsSection from '@/components/about/Testimonial'
 import Footer from '@/components/global/Footer'
 import Navbar from '@/components/global/Navbar'
@@ -10,6 +11,7 @@ export default function page() {
     <Navbar />
     <TestimonialHero />
     <TestimonialsSection />
+    <Certifications />
     <Footer />
     </>
   )
