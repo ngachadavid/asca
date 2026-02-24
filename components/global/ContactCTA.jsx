@@ -9,10 +9,10 @@ export default function ContactCTA() {
     return (
         <section className="py-20 px-6 md:px-16 bg-white">
             <div className="max-w-7xl mx-auto relative">
-                <div className="absolute top-2 left-2 w-[80%] h-full bg-black"></div>
+                <div className="absolute top-2 left-2 w-full md:w-[80%] h-full bg-black"></div>
 
-                <div className="w-[80%] relative bg-linear-to-br from-blue-400 via-blue-500 to-cyan-500 p-12 md:p-16 text-start border-2 border-black">
-                    <div className="w-[70%]">
+                <div className="w-full md:w-[80%] relative bg-linear-to-br from-blue-400 via-blue-500 to-cyan-500 p-12 md:p-16 text-start border-2 border-black">
+                    <div className="w-full md:w-[70%]">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                             {t('contactCTA.title')}
                         </h2>
