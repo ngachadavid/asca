@@ -57,7 +57,7 @@ export default function LanguageSwitcher() {
       {/* Dropdown Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-4 py-2 border-2 border-black bg-white rounded-md hover:bg-gray-50 transition font-semibold"
+        className="flex items-center gap-2 px-4 py-2 border-2 border-black bg-white hover:bg-gray-50 transition font-semibold"
       >
         {currentLanguage.flag}
         <span className="hidden md:inline">{currentLanguage.code.toUpperCase()}</span>
@@ -73,7 +73,7 @@ export default function LanguageSwitcher() {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-48 bg-white border-2 border-black rounded-md shadow-lg z-50">
+        <div className="absolute right-0 mt-2 w-48 bg-white border-2 border-black shadow-lg z-50">
           {languages.map((lang) => (
             <button
               key={lang.code}
