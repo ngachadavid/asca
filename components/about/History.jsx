@@ -26,7 +26,7 @@ export default function History() {
           
           {/* Main image */}
           <img 
-            src="/homepage/carlo.webp" 
+            src="/homepage/class.webp" 
             alt="ASCA Story - Inspired by Carlo Acutis" 
             className="relative w-full h-64 border border-black object-cover"
           />
