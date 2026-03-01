@@ -35,7 +35,7 @@
     "nutrition": {
       "title": "Ernährung und Wohlbefinden",
       "description": "ASCA bekämpft Hunger und Mangelernährung durch die Bereitstellung wesentlicher Ressourcen und Nahrung. Unsere Programme stellen sicher, dass Kinder Zugang zu ausgewogenen Mahlzeiten, Gesundheitserziehung und Unterstützung für ihr körperliches und emotionales Wohlbefinden haben, damit sie in einer sicheren Umgebung wachsen, lernen und gedeihen können."
-     }
+    }
   },
   "testimonial": {
     "title": "Hören Sie von einem der Leben, die wir unterstützen",
@@ -51,8 +51,7 @@
       "p8": "Ich schließe mit einem herzlichen Dank für die Anstrengungen, die Sie unternehmen, und die Liebe, die Sie uns kontinuierlich zeigen. Möge Gott Sie segnen und stärken."
     },
     "signature": "— Frau Béatrice Ntunzwenayo"
-  }
-  ,
+  },
   "faq": {
     "title": "Häufig gestellte Fragen",
     "questions": [
@@ -73,15 +72,13 @@
         "answer": "Unsere Programme sind für Kinder konzipiert, die mit sozialen und wirtschaftlichen Schwierigkeiten konfrontiert sind, insbesondere solche, die von Schulabbruch bedroht sind. Wir priorisieren Kinder, die konsequente Unterstützung benötigen, um Bildungs- und emotionale Barrieren zu überwinden."
       }
     ]
-  }
-  ,
+  },
   "donateCTA": {
     "title": "An ASCA spenden",
     "description": "Unterstützen Sie gefährdete Kinder durch Bildung, Ernährung und emotionale Betreuung. Gemeinsam können wir Gemeinschaften schaffen, in denen jedes Kind gedeiht.",
     "inquiry": "Für Anfragen kontaktieren Sie bitte unser Team.",
     "button": "An ASCA spenden"
-  }
-  ,
+  },
   "contact": {
     "title": "Kinder stärken, die mit Verlust und Not konfrontiert sind",
     "subtitle": "Jede Nachricht zählt. Melden Sie sich bei uns und machen Sie den ersten Schritt, um das Leben der Kinder, die es am meisten brauchen, wirklich zu verändern.",
@@ -129,50 +126,57 @@
         "content": "Wir bereiten Kinder auf langfristigen Erfolg vor, indem wir praktische Fähigkeiten, Resilienz und Ehrgeiz fördern — und sie befähigen, ihre eigene Zukunft mit Selbstvertrauen zu gestalten."
       }
     ]
-  }
-  ,
-"history": {
-  "title": "Unsere Geschichte",
-  "text": "Gegründet am 30. Juli 2023 von einer Gruppe weltlicher Benediktineroblaten des Dritten Benediktinerordens der Abtei Clervaux, glaubt der Verein, dass es wie die Rettung der Menschheit für eine bessere Welt ist, einem verwaisten, armen oder verlassenen Kind zu helfen.\n\nArmut ist ungerecht. ASCA verpflichtet sich, keine Kinder, die in extremer Not leben, zurückzulassen und ihnen die Unterstützung zu geben, die sie benötigen, um eine erfüllende Bildung zu verfolgen und genug zu essen zu haben.\n\nDer Heilige Carlo Acutis, der Schutzpatron unseres Vereins, dient als Vorbild für Großzügigkeit und Mitgefühl gegenüber den Verwundbarsten, den Ärmsten der Armen."
-},
-"ourValues": {
-  "title": "Die Werte, die unsere Arbeit leiten",
-  "intro": "Unsere Mission wird von Prinzipien geprägt, die sicherstellen, dass jede Handlung durchdacht, nachhaltig und auf das Wohl der Kinder ausgerichtet ist.",
-  "cards": [
-    {
-      "title": "Würde zuerst",
-      "description": "Jedes Kind verdient es, mit Respekt und Fürsorge behandelt zu werden. Wir gehen unsere Arbeit mit Empathie an und stellen sicher, dass Unterstützung stärkt, statt zu etikettieren oder zu definieren."
-    },
-    {
-      "title": "Beständigkeit über Wohltätigkeit",
-      "description": "Echte Veränderung entsteht nicht durch einmalige Gesten. Wir konzentrieren uns auf stetige, zuverlässige Unterstützung, die Vertrauen aufbaut und dauerhafte Stabilität im Leben der Kinder schafft."
-    },
-    {
-      "title": "Gemeinschaftsgeführte Unterstützung",
-      "description": "Wir glauben, dass Lösungen am stärksten sind, wenn sie in der Gemeinschaft verwurzelt sind. Durch enge Zusammenarbeit mit Familien, Pädagogen und lokalen Partnern stellen wir sicher, dass unsere Wirkung sinnvoll und nachhaltig ist."
-    },
-    {
-      "title": "Langfristige Wirkung",
-      "description": "Unser Ziel ist keine kurzfristige Hilfe, sondern langfristige Transformation. Wir investieren in Bildung, Resilienz und Chancen, damit Kinder ihre eigene Zukunft selbstbewusst gestalten können."
-    }
-  ]
-},
-"projectsHero": {
-  "title": "Entdecken Sie unsere Projekte und sehen Sie, wie ASCA Luxemburg nachhaltige Wirkung erzielt",
-  "cta": "Erfolgsgeschichten ansehen"
-},
-"projects": [
-  {
-    "title": "Orphelinat de Mugera – Burundi",
-    "description": "Mugera ist ein kleines Dorf in der Provinz Gitega im Zentrum von Burundi. Das Waisenhaus, in dem etwa 40 Kinder leben, wurde früher von der Pfarrei und Freiwilligen unterstützt. Nach COVID und aufgrund extremer Armut kämpft das Projekt. Spenden von ASCA bieten Mahlzeiten und Schulmaterialien und machen einen echten Unterschied im Leben der Kinder.",
-    "images": ["/projects/kr.webp", "/projects/kerrr.webp"]
   },
-  {
-    "title": "Projet Keur Moussa – Sénégal",
-    "description": "In Keur-Moussa im Senegal stehen Kinder vor Herausforderungen aufgrund begrenzter Ressourcen ihrer Eltern. Dieses Projekt, das von den Mönchen der Abtei Keur-Moussa geleitet wird, bietet wesentliche Unterstützung, einschließlich Schulmaterial, um den Kindern akademisch und persönlich zu helfen.",
-    "images": ["/projects/kerr.webp", "/projects/ker.webp", "/projects/ke.webp", "/projects/k.webp"]
-  }
-],
+  "history": {
+    "title": "Unsere Geschichte",
+    "text": "Gegründet am 30. Juli 2023 von einer Gruppe weltlicher Benediktineroblaten des Dritten Benediktinerordens der Abtei Clervaux, glaubt der Verein, dass es wie die Rettung der Menschheit für eine bessere Welt ist, einem verwaisten, armen oder verlassenen Kind zu helfen.\n\nArmut ist ungerecht. ASCA verpflichtet sich, keine Kinder, die in extremer Not leben, zurückzulassen und ihnen die Unterstützung zu geben, die sie benötigen, um eine erfüllende Bildung zu verfolgen und genug zu essen zu haben.\n\nDer Heilige Carlo Acutis, der Schutzpatron unseres Vereins, dient als Vorbild für Großzügigkeit und Mitgefühl gegenüber den Verwundbarsten, den Ärmsten der Armen."
+  },
+  "ourValues": {
+    "title": "Die Werte, die unsere Arbeit leiten",
+    "intro": "Unsere Mission wird von Prinzipien geprägt, die sicherstellen, dass jede Handlung durchdacht, nachhaltig und auf das Wohl der Kinder ausgerichtet ist.",
+    "cards": [
+      {
+        "title": "Würde zuerst",
+        "description": "Jedes Kind verdient es, mit Respekt und Fürsorge behandelt zu werden. Wir gehen unsere Arbeit mit Empathie an und stellen sicher, dass Unterstützung stärkt, statt zu etikettieren oder zu definieren."
+      },
+      {
+        "title": "Beständigkeit über Wohltätigkeit",
+        "description": "Echte Veränderung entsteht nicht durch einmalige Gesten. Wir konzentrieren uns auf stetige, zuverlässige Unterstützung, die Vertrauen aufbaut und dauerhafte Stabilität im Leben der Kinder schafft."
+      },
+      {
+        "title": "Gemeinschaftsgeführte Unterstützung",
+        "description": "Wir glauben, dass Lösungen am stärksten sind, wenn sie in der Gemeinschaft verwurzelt sind. Durch enge Zusammenarbeit mit Familien, Pädagogen und lokalen Partnern stellen wir sicher, dass unsere Wirkung sinnvoll und nachhaltig ist."
+      },
+      {
+        "title": "Langfristige Wirkung",
+        "description": "Unser Ziel ist keine kurzfristige Hilfe, sondern langfristige Transformation. Wir investieren in Bildung, Resilienz und Chancen, damit Kinder ihre eigene Zukunft selbstbewusst gestalten können."
+      }
+    ]
+  },
+  "projectsHero": {
+    "title": "Entdecken Sie unsere Projekte und sehen Sie, wie ASCA Luxemburg nachhaltige Wirkung erzielt",
+    "cta": "Erfolgsgeschichten ansehen"
+  },
+  "projects": [
+    {
+      "title": "Orphelinat de Mugera – Burundi",
+      "description": "Mugera ist ein kleines Dorf in der Provinz Gitega im Zentrum von Burundi. Das Waisenhaus, in dem etwa 40 Kinder leben, wurde früher von der Pfarrei und Freiwilligen unterstützt. Nach COVID und aufgrund extremer Armut kämpft das Projekt. Spenden von ASCA bieten Mahlzeiten und Schulmaterialien und machen einen echten Unterschied im Leben der Kinder.",
+      "images": [
+        "/projects/kr.webp",
+        "/projects/kerrr.webp"
+      ]
+    },
+    {
+      "title": "Projet Keur Moussa – Sénégal",
+      "description": "In Keur-Moussa im Senegal stehen Kinder vor Herausforderungen aufgrund begrenzter Ressourcen ihrer Eltern. Dieses Projekt, das von den Mönchen der Abtei Keur-Moussa geleitet wird, bietet wesentliche Unterstützung, einschließlich Schulmaterial, um den Kindern akademisch und persönlich zu helfen.",
+      "images": [
+        "/projects/kerr.webp",
+        "/projects/ker.webp",
+        "/projects/ke.webp",
+        "/projects/k.webp"
+      ]
+    }
+  ],
   "contactCTA": {
     "title": "Erfahren Sie, wie Sie sich in unserer gemeindebasierten Arbeit engagieren können",
     "description": "Wir freuen uns immer, mit engagierten Personen und Organisationen in Kontakt zu treten. Kontaktieren Sie uns, um zu erfahren, wie Sie zu den Programmen von ASCA Luxemburg beitragen und Kindern helfen können, erfolgreich zu sein.",
@@ -239,7 +243,8 @@
       "about": "Über uns",
       "projects": "Projekte",
       "testimonials": "Referenzen",
-      "donate": "Spenden"
+      "donate": "Spenden",
+      "legal": "Impressum"
     },
     "addressTitle": "Adresse",
     "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGroßherzogtum Luxemburg",
@@ -255,5 +260,19 @@
     "address": "Organisationsadresse",
     "copy": "Kopieren",
     "note": "Bitte geben Sie Ihren Namen und Ihre E-Mail-Adresse in der Überweisungsreferenz an, damit wir Ihnen eine Quittung und Bestätigung senden können."
+  },
+  "legal": {
+    "title": "Impressum",
+    "subtitle": "Hier finden Sie die offiziellen rechtlichen Informationen und Eigentümerdetails dieser Website.",
+    "lastUpdated": "Dieses Impressum wurde zuletzt am 5. Januar 2026 aktualisiert.",
+    "ownerTitle": "Der Eigentümer dieser Website ist:",
+    "ownerDetails": "Asca Luxembourg\n21, Bënzelter Wee\nL-9742 Boxhorn, Großherzogtum Luxemburg",
+    "ownerEmail": "info@ascal.eu",
+    "ownerPhone": "+49 (0)178 / 486 7057",
+    "representativesTitle": "Gesetzliche Vertreter:",
+    "representativesDetails": "Gaston Manirakiza",
+    "generalTitle": "Allgemeines",
+    "generalText": "Wir sind ein gemeinnütziger Verein, eingetragen unter der Registrierungsnummer: F14177",
+    "disputeText": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
   }
 }

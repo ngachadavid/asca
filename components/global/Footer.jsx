@@ -58,8 +58,11 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="mt-12 pt-6 border-t border-white/20 text-center text-white/50 text-xs">
-        {t('footer.bottomText', { year: new Date().getFullYear() })}
+      <div className="mt-12 pt-6 border-t border-white/20 flex flex-col md:flex-row items-center justify-between text-white/50 text-xs gap-2">
+        <span>{t('footer.bottomText', { year: new Date().getFullYear() })}</span>
+        <Link href="/legal" className="hover:text-white text-white/70 text-sm transition">
+          {t('footer.links.legal')}
+        </Link>
       </div>
     </footer>
   );

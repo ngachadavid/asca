@@ -239,7 +239,8 @@
       "about": "About Us",
       "projects": "Projects",
       "testimonials": "Testimonials",
-      "donate": "Donate"
+      "donate": "Donate",
+      "legal": "Legal Notice"
     },
     "addressTitle": "Address",
     "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGrand Duchy of Luxembourg",
@@ -255,5 +256,19 @@
     "address": "Organization Address",
     "copy": "Copy",
     "note": "Please include your name and email in the transfer reference so we can send you a receipt and confirmation."
-  }
+  },
+  "legal": {
+  "title": "Legal Notice",
+  "subtitle": "Find the official legal information and ownership details for this website.",
+  "lastUpdated": "This imprint was last updated on January 5, 2026.",
+  "ownerTitle": "The owner of this website is:",
+  "ownerDetails": "Asca Luxembourg\n21, Bënzelter Wee\nL-9742 Boxhorn, Grand Duchy of Luxembourg",
+  "ownerEmail": "info@ascal.eu",
+  "ownerPhone": "+49 (0)178 / 486 7057",
+  "representativesTitle": "Legal Representatives:",
+  "representativesDetails": "Gaston Manirakiza",
+  "generalTitle": "General",
+  "generalText": "We are a Non-Profit Association registered under registration number: F14177",
+  "disputeText": "We are not willing or obliged to participate in dispute resolution procedures before a consumer arbitration board."
+}
 }
