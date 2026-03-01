@@ -47,10 +47,10 @@ export default function Footer() {
         {/* Column 4 – Contact */}
         <div>
           <h4 className="text-lg font-semibold mb-4 text-[#3399FF]">{t('footer.contactTitle')}</h4>
-          <a
-            href="mailto:ascalux.org@gmail.com"
-            className="text-white/70 hover:text-white transition text-sm"
-          >
+          <a href="mailto:info@ascal.eu" className="text-white/70 hover:text-white transition text-sm block">
+            info@ascal.eu
+          </a>
+          <a href="mailto:ascalux.org@gmail.com" className="text-white/70 hover:text-white transition text-sm block mt-1">
             ascalux.org@gmail.com
           </a>
         </div>
