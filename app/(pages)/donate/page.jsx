@@ -49,8 +49,8 @@ export default function Page() {
     <>
       <Navbar />
       <DonateHero />
-      <DonateMissionSection />
       <BankDetailsSection />
+      <DonateMissionSection />
       <Footer />
     </>
   )
