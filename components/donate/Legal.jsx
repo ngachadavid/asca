@@ -7,7 +7,7 @@ export default function LegalSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="w-full bg-white py-20 px-6 md:px-16">
+    <section className="w-full bg-white pt-20 px-6 md:px-16">
       <div className="max-w-3xl mx-auto flex flex-col gap-10">
 
         {/* Header */}
