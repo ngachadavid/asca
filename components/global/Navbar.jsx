@@ -54,6 +54,11 @@ export default function Navbar() {
               {t('nav.testimonials')}
             </Link>
           </li>
+          <li>
+            <Link href="/contact" className="hover:text-[#3399FF] transition">
+              {t('nav.contact')}
+            </Link>
+          </li>
         </ul>
 
         {/* Right - Language Switcher + Donate Button */}
@@ -139,6 +144,13 @@ export default function Navbar() {
                 className="text-lg font-bold text-gray-900 hover:text-[#3399FF] transition py-2"
               >
                 {t('nav.testimonials')}
+              </Link>
+              <Link
+                href="/contact"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-lg font-bold text-gray-900 hover:text-[#3399FF] transition py-2"
+              >
+                {t('nav.contact')}
               </Link>
             </div>
           </div>
