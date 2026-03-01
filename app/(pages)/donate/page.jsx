@@ -48,7 +48,7 @@ export default function Page() {
   return (
     <>
       <Navbar />
-      <DonateHero />
+      {/* <DonateHero /> */}
       <BankDetailsSection />
       <DonateMissionSection />
       <Footer />

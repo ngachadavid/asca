@@ -152,6 +152,13 @@ export default function Navbar() {
               >
                 {t('nav.contact')}
               </Link>
+              <Link
+                href="/legal"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-lg font-bold text-gray-900 hover:text-[#3399FF] transition py-2"
+              >
+                {t('nav.legal')}
+              </Link>
             </div>
           </div>
         )}

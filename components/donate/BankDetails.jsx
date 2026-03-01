@@ -11,8 +11,8 @@ export default function BankDetailsSection() {
   };
 
   return (
-    <section className="py-20 px-6 md:px-16 bg-gray-50">
-      <div className="max-w-4xl mx-auto">
+    <section className="py-32 md:py-20 px-6 md:px-16 bg-gray-50">
+      <div className="max-w-4xl mx-auto mt-10">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">

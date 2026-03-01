@@ -24,7 +24,7 @@ export default function DonateMissionSection() {
         <div className="w-full md:w-[40%] relative">
           {/* Main image */}
           <img 
-            src="/homepage/impact.webp" 
+            src="/projects/ker.webp" 
             alt="Support children through ASCA Luxembourg" 
             className="relative w-full h-64 border border-black object-cover"
           />
