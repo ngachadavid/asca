@@ -22,15 +22,15 @@ export default function Navbar() {
             <div className="flex items-center gap-3">
               {/* ASCA Luxembourg Stacked */}
               <div className="flex flex-col items-start leading-none -space-y-2">
-                <span className="font-semibold text-2xl text-[#3399FF]">ASCA</span>
-                <span className="font-medium text-base text-[#3399FF]">Luxembourg</span>
+                <span className="font-semibold text-3xl text-[#3399FF]">ASCA</span>
+                <span className="font-medium text-lg text-[#3399FF]">Luxembourg</span>
               </div>
 
               {/* Vertical Separator */}
               <div className="h-12 w-px bg-[#3399FF]"></div>
 
               {/* Tagline */}
-              <span className="text-base text-[#3399FF] max-w-xs">
+              <span className="text-lg text-[#3399FF] max-w-xs">
                 {t('nav.tagline')}
               </span>
             </div>
@@ -73,15 +73,15 @@ export default function Navbar() {
             <div className="flex items-center gap-2">
               {/* ASCA Luxembourg Stacked */}
               <div className="flex flex-col items-start leading-none -space-y-1">
-                <span className="font-semibold text-lg text-[#3399FF]">ASCA</span>
-                <span className="font-medium text-xs text-[#3399FF]">Luxembourg</span>
+                <span className="font-semibold text-xl text-[#3399FF]">ASCA</span>
+                <span className="font-medium text-sm text-[#3399FF]">Luxembourg</span>
               </div>
 
               {/* Separator */}
               <div className="h-8 w-px bg-[#3399FF]"></div>
 
               {/* Tagline */}
-              <span className="text-xs text-[#3399FF]">
+              <span className="text-sm text-[#3399FF]">
                 {t('nav.tagline')}
               </span>
             </div>
