@@ -8,9 +8,6 @@ export default function Testimonial() {
   return (
     <section className="py-24 px-6 md:px-16 bg-white">
       <div className="max-w-6xl mx-auto relative">
-        
-        <div className="absolute top-2 left-2 w-full h-full bg-black"></div>
-
         <div className="relative -top-2 -left-2 bg-gray-200 border-2 border-black p-8 md:p-12">
           
           <h2 className="text-xl md:text-3xl font-bold text-black mb-4">

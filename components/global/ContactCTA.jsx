@@ -9,8 +9,6 @@ export default function ContactCTA() {
     return (
         <section className="py-20 px-6 md:px-16 bg-white">
             <div className="max-w-7xl mx-auto relative">
-                <div className="absolute top-2 left-2 w-full md:w-[80%] h-full bg-black"></div>
-
                 <div className="w-full md:w-[80%] relative bg-linear-to-br from-blue-400 via-blue-500 to-cyan-500 p-12 md:p-16 text-start border-2 border-black">
                     <div className="w-full md:w-[70%]">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
@@ -22,13 +20,11 @@ export default function ContactCTA() {
                         </p>
 
                         <div className="relative inline-block">
-                            {/* Black underlay */}
-                            <div className="absolute top-0 left-0 w-full h-full bg-black"></div>
 
                             {/* Main button */}
                             <a
                                 href="mailto:info@ascal.eu"
-                                className="relative -top-1 -left-1 inline-block px-6 py-3 bg-white text-blue-600 font-semibold border border-black hover:translate-x-1 hover:translate-y-1 transition-transform duration-200"
+                                className="relative inline-block px-6 py-3 bg-white text-blue-600 font-semibold border border-black"
                             >
                                 {t('contactCTA.button')}
                             </a>
@@ -37,7 +33,6 @@ export default function ContactCTA() {
                 </div>
 
                 <div className="absolute top-1/2 -translate-y-1/2 right-0 md:right-10 w-64 md:w-80 lg:w-96 hidden md:block">
-                    <div className="absolute top-2 left-2 w-full h-full bg-black"></div>
                     <img
                         src="/faq/impact4.jpg"
                         alt="ASCA Community"

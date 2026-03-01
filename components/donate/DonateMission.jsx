@@ -22,8 +22,6 @@ export default function DonateMissionSection() {
 
         {/* Image - Right Side */}
         <div className="w-full md:w-[40%] relative">
-          {/* Black shadow */}
-          <div className="absolute top-2 left-2 w-full h-full bg-black"></div>
           
           {/* Main image */}
           <img 

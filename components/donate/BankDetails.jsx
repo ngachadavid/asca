@@ -25,8 +25,6 @@ export default function BankDetailsSection() {
 
         {/* Bank Details Card */}
         <div className="relative">
-          {/* Black shadow */}
-          <div className="absolute top-2 left-2 w-full h-full bg-black"></div>
 
           {/* Main card */}
           <div className="relative bg-white border-2 border-black p-8 md:p-12">

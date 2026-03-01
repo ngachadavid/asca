@@ -27,9 +27,6 @@ export default function OurValues() {
       <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
         {cards.map((card, index) => (
           <div key={index} className="relative">
-            {/* Black shadow underlay */}
-            <div className="absolute top-0 left-0 w-full h-full bg-black"></div>
-
             {/* Main card */}
             <div
               className={`${bgColors[index]} border border-black relative -top-2 -left-2 p-8 flex flex-col text-start`}
