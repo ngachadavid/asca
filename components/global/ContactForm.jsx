@@ -6,7 +6,7 @@ import { useTranslation } from '@/lib/useTranslation';
 
 export default function ContactSection() {
   const { t } = useTranslation();
-  const [status, setStatus] = useState('idle'); // idle | loading | success | error
+  const [status, setStatus] = useState('idle');
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -88,14 +88,14 @@ export default function ContactSection() {
                 <p className="text-red-500 text-sm">Something went wrong. Please try again.</p>
               )}
 
-              <Button
+              <button
                 type="submit"
-                bgColor="#3399FF"
-                className="w-full md:w-auto"
                 disabled={status === 'loading'}
+                style={{ backgroundColor: '#3399FF' }}
+                className="px-4 py-2 text-white border border-black font-medium text-sm md:text-base cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {status === 'loading' ? 'Sending...' : t('contact.form.submit')}
-              </Button>
+              </button>
             </form>
           )}
         </div>
