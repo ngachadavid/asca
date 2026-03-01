@@ -5,41 +5,41 @@ import Navbar from '@/components/global/Navbar'
 import React from 'react'
 
 export const metadata = {
-  title: "Contact Us | Creating Impact Through Education & Support",
+  title: "Legal Notice | ASCA Luxembourg",
   description:
-    "Discover ASCA Luxembourg’s projects supporting vulnerable children through education, nutrition, and community empowerment in Burundi and Senegal.",
+    "Find the official legal information and ownership details for the ASCA Luxembourg website.",
   keywords: [
-    "charity projects Africa",
-    "education support Burundi",
-    "Keur Moussa Senegal project",
-    "orphanage support",
-    "ASCA Luxembourg projects"
+    "legal notice",
+    "imprint",
+    "ASCA Luxembourg legal",
+    "mentions légales",
+    "impressum"
   ],
   openGraph: {
-    title: "Contact Us | ASCA Luxembourg",
+    title: "Legal Notice | ASCA Luxembourg",
     description:
-      "See how our initiatives provide education, nourishment, and hope to children facing poverty and school dropout.",
-    url: "https://ascal.eu/contact",
+      "Find the official legal information and ownership details for the ASCA Luxembourg website.",
+    url: "https://ascal.eu/legal",
     siteName: "ASCA Luxembourg",
     images: [
       {
         url: "/projects/kr.webp",
         width: 1200,
         height: 630,
-        alt: "ASCA Luxembourg education and support projects"
+        alt: "ASCA Luxembourg legal notice"
       }
     ],
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "ASCA Luxembourg Projects",
+    title: "Legal Notice | ASCA Luxembourg",
     description:
-      "Education, nourishment, and opportunity for vulnerable children.",
+      "Official legal information and ownership details for ASCA Luxembourg.",
     images: ["/projects/kr.webp"]
   },
   alternates: {
-    canonical: "https://ascal.eu/contact"
+    canonical: "https://ascal.eu/legal"
   }
 }
 
