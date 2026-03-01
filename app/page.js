@@ -4,7 +4,6 @@ import React from 'react'
 import MissionSection from '@/components/homepage/Mission'
 import ImpactSection from '@/components/homepage/Impact'
 import DonateCTA from '@/components/global/DonateCTA'
-import ContactSection from '@/components/global/ContactForm'
 import Testimonial from '@/components/homepage/Testimonial'
 import Footer from '@/components/global/Footer'
 import FAQSection from '@/components/homepage/FAQ.'
@@ -65,7 +64,6 @@ export default function Page() {
       <Testimonial />
       <FAQSection />
       <DonateCTA />
-      <ContactSection />
       <Footer />
     </>
   )

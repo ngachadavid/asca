@@ -9,9 +9,9 @@ export default function ContactSection() {
 
   return (
     <section className="w-full bg-white py-20 px-6 md:px-16">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 md:gap-16 items-center">
+      <div className="max-w-6xl mx-auto flex flex-col gap-10">
         {/* Left Side - Copy */}
-        <div className="md:w-1/2 text-left">
+        <div className="md:w-[70%] w-full text-center mx-auto mt-10">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
             {t('contact.title')}
           </h2>
@@ -21,7 +21,7 @@ export default function ContactSection() {
         </div>
 
         {/* Right Side - Contact Form */}
-        <div className="md:w-1/2 w-full">
+        <div className="md:w-1/2 mx-auto w-full">
           <form className="space-y-6">
             {/* Name Field */}
             <div>
