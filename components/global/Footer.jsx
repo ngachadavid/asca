@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import { Mail, Phone } from "lucide-react";
 import { useTranslation } from "@/lib/useTranslation";
 
 export default function Footer() {
@@ -47,11 +48,19 @@ export default function Footer() {
         {/* Column 4 – Contact */}
         <div>
           <h4 className="text-lg font-semibold mb-4 text-[#3399FF]">{t('footer.contactTitle')}</h4>
-          <a href="mailto:info@ascal.eu" className="text-white/70 hover:text-white transition text-sm block">
-            info@ascal.eu
+
+          <a href="mailto:info@ascal.eu" className="text-white/70 hover:text-white transition text-sm flex items-center gap-2">
+            <Mail size={14} /> info@ascal.eu
           </a>
-          <a href="mailto:ascalux.org@gmail.com" className="text-white/70 hover:text-white transition text-sm block mt-1">
-            ascalux.org@gmail.com
+          <a href="mailto:ascalux.org@gmail.com" className="text-white/70 hover:text-white transition text-sm flex items-center gap-2 mt-1">
+            <Mail size={14} /> ascalux.org@gmail.com
+          </a>
+
+          <a href="tel:+352621381195" className="text-white/70 hover:text-white transition text-sm flex items-center gap-2 mt-3">
+            <Phone size={14} /> +352 621 381 195
+          </a>
+          <a href="tel:+4917634028033" className="text-white/70 hover:text-white transition text-sm flex items-center gap-2 mt-1">
+            <Phone size={14} /> +49 176 340 28033
           </a>
         </div>
 
