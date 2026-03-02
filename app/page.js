@@ -61,7 +61,7 @@ export default function Page() {
       <Hero />
       <MissionSection />
       <ImpactSection />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <FAQSection />
       <DonateCTA />
       <Footer />

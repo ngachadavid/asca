@@ -4,6 +4,7 @@ import Footer from '@/components/global/Footer'
 import Navbar from '@/components/global/Navbar'
 import TestimonialHero from '@/components/testimonials/Hero'
 import React from 'react'
+import Testimonial from '@/components/homepage/Testimonial'
 
 export const metadata = {
   title: "Testimonials & Recognition | ASCA Luxembourg",
@@ -49,8 +50,9 @@ export default function Page() {
     <>
       <Navbar />
       <TestimonialHero />
-      <TestimonialsSection />
-      <Certifications />
+      <Testimonial />
+      {/* <TestimonialsSection /> */}
+      {/* <Certifications /> */}
       <Footer />
     </>
   )
