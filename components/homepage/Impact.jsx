@@ -19,13 +19,13 @@ export default function ImpactSection() {
       bgColor: "bg-blue-300",
     },
     {
-      icon: "/homepage/impact1.webp",
+      icon: "/homepage/asc.webp",
       titleKey: "impact.inclusion.title",
       descriptionKey: "impact.inclusion.description",
       bgColor: "bg-blue-400",
     },
     {
-      icon: "/homepage/impact.webp",
+      icon: "/homepage/asca.jpg",
       titleKey: "impact.nutrition.title",
       descriptionKey: "impact.nutrition.description",
       bgColor: "bg-blue-500",

@@ -9,7 +9,7 @@ export default function TestimonialHero() {
   return (
     <section
       className="h-screen w-full bg-cover bg-center flex items-end justify-start relative"
-      style={{ backgroundImage: "url('/homepage/impact.webp')" }}
+      style={{ backgroundImage: "url('/homepage/asc1.webp')" }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50" />
