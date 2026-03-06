@@ -28,7 +28,7 @@ export default function BankDetailsSection() {
 
           {/* Main card */}
           <div className="relative bg-white border-2 border-black p-8 md:p-12">
-            
+
             {/* Account Holder */}
             <div className="mb-8">
               <h3 className="text-sm font-semibold text-gray-600 mb-2">
@@ -53,6 +53,24 @@ export default function BankDetailsSection() {
                   className="ml-4 px-4 py-2 bg-[#3399FF] text-white font-semibold rounded hover:bg-blue-600 transition text-sm"
                 >
                   {t('bankDetails.copy')}
+                </button>
+              </div>
+            </div>
+
+            {/* BIC */}
+            <div className="mb-8">
+              <h3 className="text-sm font-semibold text-gray-600 mb-2">
+                BIC
+              </h3>
+              <div className="flex items-center justify-between bg-gray-50 p-4 rounded border border-gray-200">
+                <p className="text-xl md:text-2xl font-bold text-[#3399FF] font-mono">
+                  BILLLULL
+                </p>
+                <button
+                  onClick={() => copyToClipboard('BILLLULL')}
+                  className="ml-4 px-4 py-2 bg-[#3399FF] text-white font-semibold rounded hover:bg-blue-600 transition text-sm"
+                >
+                  Copy
                 </button>
               </div>
             </div>
