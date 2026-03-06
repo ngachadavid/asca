@@ -27,7 +27,7 @@ export default function LegalSection() {
                         {t('legal.ownerDetails')}
                         {'\n\n'}
                         Email: <a href={`mailto:${t('legal.ownerEmail')}`} className="text-[#3399FF] hover:underline">{t('legal.ownerEmail')}</a>{'\n'}
-                        Phone: +352 621 381 195{'\n'}
+                        {/* Phone: +352 621 381 195{'\n'} */}
                         Phone: +49 176 340 28033
                     </p>
                 </div>

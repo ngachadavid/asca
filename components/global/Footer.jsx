@@ -59,9 +59,9 @@ export default function Footer() {
            <a href="tel:+4917634028033" className="text-white/70 hover:text-white transition text-sm flex items-center gap-2 mt-1">
             <Phone size={14} /> +49 176 340 28033
           </a>
-          <a href="tel:+352621381195" className="text-white/70 hover:text-white transition text-sm flex items-center gap-2 mt-3">
+          {/* <a href="tel:+352621381195" className="text-white/70 hover:text-white transition text-sm flex items-center gap-2 mt-3">
             <Phone size={14} /> +352 621 381 195
-          </a>
+          </a> */}
         </div>
 
       </div>
