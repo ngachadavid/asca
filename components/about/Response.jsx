@@ -14,7 +14,7 @@ export default function OurResponse() {
 
   return (
     <section className="py-24 px-6 md:px-16 bg-white">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-5 gap-12">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-5 gap-12">
 
         {/* Left – 40% */}
         <div className="md:col-span-2">

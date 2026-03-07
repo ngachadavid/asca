@@ -12,7 +12,7 @@ export default function FAQSection() {
 
   return (
     <section className="py-20 px-6 md:px-16 bg-gray-50">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-xl md:text-3xl font-bold text-black mb-4 text-center">
           {t('faq.title')}
         </h2>

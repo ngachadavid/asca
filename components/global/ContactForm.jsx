@@ -35,7 +35,7 @@ export default function ContactSection() {
 
   return (
     <section className="w-full bg-white py-32 md:py-20 px-6 md:px-16">
-      <div className="max-w-6xl mx-auto flex flex-col gap-10">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10">
         <div className="md:w-[70%] w-full text-center mx-auto mt-10">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
             {t('contact.title')}

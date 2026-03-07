@@ -11,7 +11,7 @@ export default function Certifications() {
 
   return (
     <section className="py-20 px-6 md:px-16 bg-white">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-xl md:text-3xl font-bold text-black mb-8 text-center">

@@ -7,7 +7,7 @@ export default function DonateMissionSection() {
 
   return (
     <section className="w-full py-20 px-6 md:px-16 bg-white">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
 
         {/* Text Content - Left Side */}
         <div className="md:w-1/2 text-center">

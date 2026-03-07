@@ -33,14 +33,14 @@ export default function ImpactSection() {
   ];
 
   return (
-    <section className="py-20 w-full max-w-6xl px-4 mx-auto bg-white">
+    <section className="py-20 w-full max-w-7xl px-4 mx-auto bg-white">
       <div className="w-full md:w-[70%] mx-auto text-center mb-12">
         <h2 className="text-xl md:text-3xl font-bold text-black mb-4">
           {t('impact.title')}
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-12 max-w-7xl mx-auto">
         {cards.map((card, index) => (
           <div key={index} className="relative">
             <div className={`${card.bgColor} border border-black relative -top-2 -left-2 flex flex-col items-center text-start`}>

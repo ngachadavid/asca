@@ -12,7 +12,7 @@ export default function OurValues() {
   const cards = t('ourValues.cards');
 
   return (
-    <section className="py-24 w-full max-w-6xl px-4 mx-auto bg-white">
+    <section className="py-24 w-full max-w-7xl px-4 mx-auto bg-white">
       {/* Heading */}
       <div className="w-full md:w-[60%] mx-auto text-center mb-16">
         <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
@@ -24,7 +24,7 @@ export default function OurValues() {
       </div>
 
       {/* Cards */}
-      <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-12 max-w-7xl mx-auto">
         {cards.map((card, index) => (
           <div key={index} className="relative">
             {/* Main card */}

@@ -8,7 +8,7 @@ export default function Projects() {
   const projects = t('projects'); // pulls array from JSON
 
   return (
-    <section className="pt-20 px-6 md:px-16 max-w-6xl mx-auto bg-white">
+    <section className="pt-20 px-6 md:px-16 max-w-7xl mx-auto bg-white">
       {projects.map((project, idx) => (
         <div key={idx} className="mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-black/90 mb-4">

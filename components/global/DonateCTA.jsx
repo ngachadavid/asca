@@ -9,7 +9,7 @@ export default function DonateCTA() {
 
   return (
     <section className="py-20 px-6 md:px-16 bg-white">
-      <div className="max-w-6xl mx-auto relative">
+      <div className="max-w-7xl mx-auto relative">
         <div className="relative bg-linear-to-br from-blue-400 via-blue-500 to-cyan-500 p-12 md:p-16 text-start border-2 border-black">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
             {t('donateCTA.title')}
