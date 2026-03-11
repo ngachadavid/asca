@@ -35,7 +35,7 @@ export default function BankDetailsSection() {
                 {t('bankDetails.accountHolder')}
               </h3>
               <p className="text-lg text-black/90 font-semibold">
-                ASCA Luxembourg
+                Appui Scolaire Carlo Acutis Luxembourg
               </p>
             </div>
 
@@ -46,10 +46,10 @@ export default function BankDetailsSection() {
               </h3>
               <div className="flex items-center justify-between bg-gray-50 p-4 rounded border border-gray-200">
                 <p className="text-xl md:text-2xl font-bold text-[#3399FF] font-mono">
-                  LU87 0020 2535 3713 8400
+                  LU04 0022 0000 0131 0987
                 </p>
                 <button
-                  onClick={() => copyToClipboard('LU87 0020 2535 3713 8400')}
+                  onClick={() => copyToClipboard('LU04 0022 0000 0131 0987')}
                   className="ml-4 px-4 py-2 bg-[#3399FF] text-white font-semibold rounded hover:bg-blue-600 transition text-sm"
                 >
                   {t('bankDetails.copy')}
@@ -60,7 +60,7 @@ export default function BankDetailsSection() {
             {/* BIC */}
             <div className="mb-8">
               <h3 className="text-sm font-semibold text-gray-600 mb-2">
-                BIC
+                {t('bankDetails.bic')}
               </h3>
               <div className="flex items-center justify-between bg-gray-50 p-4 rounded border border-gray-200">
                 <p className="text-xl md:text-2xl font-bold text-[#3399FF] font-mono">
