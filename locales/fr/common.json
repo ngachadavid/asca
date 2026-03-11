@@ -205,23 +205,6 @@
       }
     ]
   },
-  "certifications": {
-    "header": "Reconnaissance & Distinctions",
-    "awards": [
-      {
-        "title": "Défenseur Certifié du Bien-Être des Enfants",
-        "description": "Reconnu pour maintenir les plus hauts standards dans le soutien à l'éducation et au bien-être des enfants vulnérables."
-      },
-      {
-        "title": "Prix pour l’Autonomisation Communautaire",
-        "description": "Honoré pour promouvoir l’inclusion et fournir des ressources essentielles aux enfants confrontés à une pauvreté extrême."
-      },
-      {
-        "title": "Excellence dans le Soutien Éducatif",
-        "description": "Reconnu pour des programmes impactants réduisant le décrochage scolaire et favorisant la réussite académique."
-      }
-    ]
-  },
   "donateHero": {
     "title": "Votre soutien peut changer l’avenir d’un enfant",
     "cta": "Découvrez leurs histoires"
@@ -253,7 +236,8 @@
     "title": "Coordonnées bancaires",
     "subtitle": "Soutenez ASCA Luxembourg par virement bancaire",
     "accountHolder": "Titulaire du compte",
-    "iban": "IBAN",
+    "iban": "Numéro de Compte Bancaire International (IBAN)",
+    "bic": "Code d'Identification Bancaire (BIC)",
     "bankName": "Banque",
     "address": "Adresse de l'organisation",
     "copy": "Copier",
