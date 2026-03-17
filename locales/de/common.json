@@ -15,8 +15,8 @@
   },
   "mission": {
     "line1": "ASCA",
-    "line1Bold": "(Appui Scolaire Carlo Acutis)",
-    "line1Rest": "Luxemburg wurde unter der Inspiration des jungen Heiligen Carlo Acutis gegründet und führt sein Erbe des Mitgefühls und Dienstes an Bedürftigen fort.",
+    "line1Bold": "(Appui Scolaire Carlo Acutis Luxembourg)",
+    "line1Rest": " wurde unter der Inspiration des jungen Heiligen Carlo Acutis gegründet und führt sein Erbe des Mitgefühls und Dienstes an Bedürftigen fort.",
     "line2": "Wir sind eine gemeinnützige Organisation, die auf der Überzeugung gegründet wurde, dass jeder gleichen Zugang zu Bildung, Gesundheitsversorgung und Unterstützung verdient."
   },
   "impact": {
@@ -199,7 +199,7 @@
   },
   "footer": {
     "organization": "ASCA Luxemburg",
-    "organizationDetails": "Carlo Acutis Luxembourg Educational Support ASBL\nGemeinnütziger Verein\nRegistrierungsnummer: F14177",
+    "organizationDetails": "Carlo Acutis Luxembourg EducatGemeinnütziger Verein\nRegistrierungsnummer: F14177",
     "quickLinks": "Schnellzugriffe",
     "links": {
       "home": "Startseite",

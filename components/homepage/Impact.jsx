@@ -44,7 +44,7 @@ export default function ImpactSection() {
         {cards.map((card, index) => (
           <div key={index} className="relative">
             <div className={`${card.bgColor} border border-black relative -top-2 -left-2 flex flex-col items-center text-start`}>
-              <img src={card.icon} alt={t(card.titleKey)} className="h-64 w-full object-cover mb-4" />
+              <img src={card.icon} alt={t(card.titleKey)} className="h-80 w-full object-cover mb-4" />
               <h3 className="mt-4 px-6 text-start font-semibold text-lg md:text-xl mb-2 text-black/90">
                 {t(card.titleKey)}
               </h3>
