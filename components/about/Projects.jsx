@@ -27,7 +27,7 @@ export default function Projects() {
                 <img
                   src={img}
                   alt={`${project.title} image ${i + 1}`}
-                  className="w-full h-125 object-cover transition-transform duration-200"
+                  className="w-full h-150 object-cover object-top transition-transform duration-200"
                 />
               </div>
             ))}
