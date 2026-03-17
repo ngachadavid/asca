@@ -21,12 +21,12 @@ export default function DonateMissionSection() {
         </div>
 
         {/* Image - Right Side */}
-        <div className="w-full md:w-[40%] relative">
+        <div className="w-full md:w-[50%] relative">
           {/* Main image */}
           <img 
             src="/projects/ker.webp" 
             alt="Support children through ASCA Luxembourg" 
-            className="relative w-full h-64 border border-black object-cover"
+            className="relative w-full h-80 border border-black object-cover"
           />
         </div>
       </div>

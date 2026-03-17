@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Content */}
-      <div className="relative z-10 text-start w-full max-w-7xl md:w-[50%] px-6 mb-4">
+      <div className="relative z-10 text-start w-full max-w-7xl md:w-[70%] 2xl:w-[50%] px-6 mb-12 ml-0 md:ml-10 2xl:ml-32">
         <h1 className="text-3xl md:text-5xl font-bold text-gray-200 leading-tight">
           {t('hero.title')}
         </h1>
