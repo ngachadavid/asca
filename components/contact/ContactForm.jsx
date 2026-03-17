@@ -1,10 +1,10 @@
 'use client';
 
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "../global/Button";
 import { useTranslation } from '@/lib/useTranslation';
 
-export default function ContactSection() {
+export default function ContactForm() {
   const { t } = useTranslation();
   const [status, setStatus] = useState('idle');
 

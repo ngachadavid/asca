@@ -1,4 +1,4 @@
-import ContactSection from '@/components/global/ContactForm'
+import ContactForm from '@/components/contact/ContactForm'
 import Footer from '@/components/global/Footer'
 import Navbar from '@/components/global/Navbar'
 import React from 'react'
@@ -46,7 +46,7 @@ export default function Page() {
   return (
     <>
       <Navbar />
-      <ContactSection />
+      <ContactForm />
       <Footer />
     </>
   )

@@ -1,5 +1,5 @@
 import LegalSection from '@/components/donate/Legal'
-import ContactSection from '@/components/global/ContactForm'
+import ContactSection from '@/components/contact/ContactForm'
 import Footer from '@/components/global/Footer'
 import Navbar from '@/components/global/Navbar'
 import React from 'react'
