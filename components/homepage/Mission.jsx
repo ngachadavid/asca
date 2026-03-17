@@ -23,9 +23,9 @@ export default function MissionSection() {
         <div className="w-full md:w-[40%] relative">          
           {/* Main image */}
           <img 
-            src="/homepage/carlo.webp" 
+            src="/homepage/carlo.avif" 
             alt="ASCA Story - Inspired by Carlo Acutis" 
-            className="relative w-full h-64 border border-black object-cover"
+            className="relative w-full h-64 md:h-96 border border-black object-cover object-top"
           />
         </div>
       </div>
