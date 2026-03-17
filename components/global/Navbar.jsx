@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-20">
       {/* Desktop Navbar */}
-      <div className="hidden md:flex max-w-7xl mx-auto px-6 py-3 items-center justify-between">
+      <div className="hidden lg:flex max-w-7xl mx-auto px-6 py-3 items-center justify-between">
         {/* Left - Logo + Name */}
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-3">
@@ -69,24 +69,24 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         {/* Top Row - Logo + Name + Tagline */}
         <div className="px-4 py-3">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/homepage/asca.jpeg" alt="ASCA Logo" className="h-10 w-auto" />
+            <img src="/homepage/asca.jpeg" alt="ASCA Logo" className="h-10 md:h-14 w-auto" />
 
             <div className="flex items-center gap-2">
               {/* ASCA Luxembourg Stacked */}
               <div className="flex flex-col items-start leading-none -space-y-1">
-                <span className="font-semibold text-xl text-[#3399FF]">ASCA</span>
-                <span className="font-medium text-sm text-[#3399FF]">Luxembourg</span>
+                <span className="font-semibold text-xl md:text-2xl text-[#3399FF]">ASCA</span>
+                <span className="font-medium text-sm md:text-base text-[#3399FF]">Luxembourg</span>
               </div>
 
               {/* Separator */}
-              <div className="h-8 w-px bg-[#3399FF]"></div>
+              <div className="h-8 md:h-10 w-px bg-[#3399FF]"></div>
 
               {/* Tagline */}
-              <span className="text-sm text-[#3399FF]">
+              <span className="text-sm md:text-lg text-[#3399FF]">
                 {t('nav.tagline')}
               </span>
             </div>
