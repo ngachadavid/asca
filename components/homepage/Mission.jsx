@@ -6,7 +6,7 @@ export default function MissionSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="w-full py-20 px-6 md:px-16 bg-white">
+    <section className="w-full pt-20 px-6 md:px-16 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
 
         {/* Text Content - Left Side */}
@@ -25,7 +25,7 @@ export default function MissionSection() {
           <img 
             src="/homepage/carlo.avif" 
             alt="ASCA Story - Inspired by Carlo Acutis" 
-            className="relative w-full h-64 md:h-96 border border-black object-cover object-top"
+            className="relative w-full h-96 border border-black object-cover object-top"
           />
         </div>
       </div>
