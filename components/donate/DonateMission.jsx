@@ -26,7 +26,7 @@ export default function DonateMissionSection() {
           <img 
             src="/projects/ker.webp" 
             alt="Support children through ASCA Luxembourg" 
-            className="relative w-full h-80 border border-black object-cover"
+            className="relative w-full h-96 border border-black object-cover"
           />
         </div>
       </div>

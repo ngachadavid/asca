@@ -20,12 +20,12 @@ export default function History() {
         </div>
 
         {/* Image - Right Side */}
-        <div className="w-full md:w-[40%] relative">
+        <div className="w-full md:w-1/2 relative">
           {/* Main image */}
           <img 
             src="/homepage/class.webp" 
             alt="ASCA Story - Inspired by Carlo Acutis" 
-            className="relative w-full h-64 border border-black object-cover"
+            className="relative w-full h-96 border border-black object-cover"
           />
         </div>
       </div>
