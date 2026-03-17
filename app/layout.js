@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://ascal.eu"),
   title: 'ASCA Luxembourg',
   description: 'Supporting vulnerable children',
+  verification: {
+    google: 'DnnyJTlJyFSVptkSPw_qgWD4hM8y8s_HXSv1hLioMwM',
+  },
 };
 
 export default function RootLayout({ children }) {
