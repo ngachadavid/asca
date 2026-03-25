@@ -1,46 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+export default function Sitemap() {}
 
+export async function getServerSideProps({ res }) {
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.ascal.eu/</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
   <url>
     <loc>https://www.ascal.eu/about</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://www.ascal.eu/projects</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://www.ascal.eu/testimonials</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://www.ascal.eu/contact</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://www.ascal.eu/donate</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+</urlset>`;
 
-</urlset>
+  res.setHeader("Content-Type", "application/xml; charset=UTF-8");
+  res.write(sitemap);
+  res.end();
+
+  return { props: {} };
+}
