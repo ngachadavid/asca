@@ -20,7 +20,7 @@ export const metadata = {
     title: "Explore Our Projects | ASCA Luxembourg",
     description:
       "See how our initiatives provide education, nourishment, and hope to children facing poverty and school dropout.",
-    url: "https://ascal.eu/projects",
+    url: "https://www.ascal.eu/projects",
     siteName: "ASCA Luxembourg",
     images: [
       {
@@ -40,7 +40,7 @@ export const metadata = {
     images: ["/projects/kr.webp"]
   },
   alternates: {
-    canonical: "https://ascal.eu/projects"
+    canonical: "https://www.ascal.eu/projects"
   }
 }
 

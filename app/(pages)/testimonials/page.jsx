@@ -19,7 +19,7 @@ export const metadata = {
     title: "Stories of Impact & Recognition | ASCA Luxembourg",
     description:
       "Discover real stories and acknowledgements highlighting our impact on vulnerable children and communities.",
-    url: "https://ascal.eu/testimonials",
+    url: "https://www.ascal.eu/testimonials",
     siteName: "ASCA Luxembourg",
     images: [
       {
@@ -39,7 +39,7 @@ export const metadata = {
     images: ["/homepage/impact.webp"]
   },
   alternates: {
-    canonical: "https://ascal.eu/testimonials"
+    canonical: "https://www.ascal.eu/testimonials"
   }
 }
 

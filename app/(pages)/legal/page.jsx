@@ -19,7 +19,7 @@ export const metadata = {
     title: "Legal Notice | ASCA Luxembourg",
     description:
       "Find the official legal information and ownership details for the ASCA Luxembourg website.",
-    url: "https://ascal.eu/legal",
+    url: "https://www.ascal.eu/legal",
     siteName: "ASCA Luxembourg",
     images: [
       {
@@ -39,7 +39,7 @@ export const metadata = {
     images: ["/projects/kr.webp"]
   },
   alternates: {
-    canonical: "https://ascal.eu/legal"
+    canonical: "https://www.ascal.eu/legal"
   }
 }
 

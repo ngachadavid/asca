@@ -23,7 +23,7 @@ export const metadata = {
     title: "About ASCA Luxembourg | Our Mission & Commitment",
     description:
       "Discover the story, values, and vision behind ASCA Luxembourg and our dedication to empowering vulnerable children.",
-    url: "https://ascal.eu/about",
+    url: "https://www.ascal.eu/about",
     siteName: "ASCA Luxembourg",
     images: [
       {
@@ -43,7 +43,7 @@ export const metadata = {
     images: ["/homepage/carlo.webp"]
   },
   alternates: {
-    canonical: "https://ascal.eu/about"
+    canonical: "https://www.ascal.eu/about"
   }
 }
 

@@ -8,7 +8,7 @@ import Footer from '@/components/global/Footer'
 import FAQSection from '@/components/homepage/FAQ.'
 
 export const metadata = {
-  metadataBase: new URL("https://ascal.eu"),
+  metadataBase: new URL("https://www.ascal.eu"),
   title: {
     default: "ASCA Luxembourg | Supporting Vulnerable Children Through Education & Care",
     template: "%s | ASCA Luxembourg"
@@ -28,7 +28,7 @@ export const metadata = {
     title: "ASCA Luxembourg | Education, Hope & Dignity",
     description:
       "Supporting disadvantaged children through education, nourishment, and emotional care.",
-    url: "https://ascal.eu",
+    url: "https://www.ascal.eu",
     siteName: "ASCA Luxembourg",
     images: [
       {
@@ -49,7 +49,7 @@ export const metadata = {
     images: ["/homepage/impact.webp"]
   },
   alternates: {
-    canonical: "https://ascal.eu"
+    canonical: "https://www.ascal.eu"
   }
 }
 

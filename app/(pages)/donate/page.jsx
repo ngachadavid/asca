@@ -19,7 +19,7 @@ export const metadata = {
     title: "Make a Difference Today | Donate to ASCA Luxembourg",
     description:
       "Help us support children in need through education, nourishment, and compassionate care. Every contribution creates lasting impact.",
-    url: "https://ascal.eu/donate",
+    url: "https://www.ascal.eu/donate",
     siteName: "ASCA Luxembourg",
     images: [
       {
@@ -39,7 +39,7 @@ export const metadata = {
     images: ["/homepage/impact.webp"]
   },
   alternates: {
-    canonical: "https://ascal.eu/donate"
+    canonical: "https://www.ascal.eu/donate"
   }
 }
 
