@@ -1,6 +1,4 @@
-export default function Sitemap() {}
-
-export async function getServerSideProps({ res }) {
+export async function GET() {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -41,9 +39,9 @@ export async function getServerSideProps({ res }) {
   </url>
 </urlset>`;
 
-  res.setHeader("Content-Type", "application/xml; charset=UTF-8");
-  res.write(sitemap);
-  res.end();
-
-  return { props: {} };
+  return new Response(sitemap, {
+    headers: {
+      "Content-Type": "application/xml; charset=UTF-8",
+    },
+  });
 }
